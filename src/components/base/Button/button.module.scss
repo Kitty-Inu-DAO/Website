@@ -1,0 +1,46 @@
+.link {
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.2vw;
+  text-indent: 0.2vw;
+  font-size: 1vw;
+  user-select: none;
+  font-family: 'Lovelo';
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.link .nav {
+  opacity: 0.5;
+  padding-right: 4vw;
+  padding-left: 4vw;
+}
+
+.link.header {
+  padding-right: 1vw;
+  padding-left: 1vw;
+}
+
+
+.header_internal_link {
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.2vw;
+  text-indent: 0.2vw;
+  font-size: 1vw;
+  opacity: 0.5;
+  padding-right: 10px;
+  padding-left: 10px;
+  user-select: none;
+  font-family: 'Lovelo';
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

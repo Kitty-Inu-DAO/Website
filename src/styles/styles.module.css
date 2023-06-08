@@ -1,0 +1,687 @@
+.homepage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 417.8vw;
+  background-color: #000000;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.homepage .background {
+  position: inherit;
+  top: -0.3vw;
+  left: -6.8vw;
+  width: 113.6vw;
+  height: 266.4vw;
+  background-color: #000000;
+  background: transparent url('/img/rollkall/Background.png') 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  background-size: cover;
+}
+
+.homepage .background2 {
+  position: inherit;
+  top: 265.3vw;
+  left: 0.0vw;
+  width: 100.0vw;
+  height: 151.4vw;
+  background-color: #000000;
+  background: transparent url('/img/rollkall/background2.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-size: cover;
+}
+
+.homepage .presents {
+  position: inherit;
+  top: 3.15vw;
+  left: 43.1vw;
+  width: 16.7vw;
+  height: 1.1vw;
+  font-family: "Futura PT Demi";
+  font-size: 0.75vw;
+  text-align: left;
+  letter-spacing: 0.4vw;
+  line-height: 5.4vw;
+  color: #fff;
+}
+
+.homepage .roll-kall {
+  position: inherit;
+  top: 3.75vw;
+  left: 38.5vw;
+  width: 22.5vw;
+  height: 17vw;
+  display: flex;
+  align-items: center;
+  overflow-y: hidden;
+  background: transparent url('/img/rollkall/roll_kall.png') 0% 0% no-repeat padding-box;
+  background-size: contain;
+  overflow: hidden;
+}
+
+
+.homepage .best-p2e {
+  position: inherit;
+  top: 8.6vw;
+  left: 62.2vw;
+  width: 10.4vw;
+  height: 5.1vw;
+  background-color: #000000;
+  background: transparent url('/img/rollkall/bestp2e.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-size: contain;
+}
+
+.homepage .kart {
+  position: inherit;
+  top: 19.2vw;
+  left: 7.6vw;
+  width: 84.1vw;
+  height: 168.5vw;
+  overflow-y: hidden;
+  background: transparent url('/img/rollkall/kittykart1.png') 0% 0% no-repeat padding-box;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.homepage .count-down {
+  position: inherit;
+  top: 69.8vw;
+  left: 34.5vw;
+  width: 30.5vw;
+  height: 4.4vw;
+  font-family: "Futura PT Book";
+  font-size: 1vw;
+  text-align: center;
+  letter-spacing: 1.4vw;
+  line-height: 1vw;
+  color: #9EFCFF;
+}
+
+.home-page .sep-line {
+  position: inherit;
+  top: 94.8vw;
+  left: 16.2vw;
+  width: 68.2vw;
+  height: 1vw;
+  background: transparent url('/img/rollkall/line1.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-size: contain;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.homepage .subheader {
+  position: inherit;
+  top: 97.4vw;
+  left: 15.6vw;
+  width: 27.3vw;
+  height: 16.0vw;
+  font-family: "Futura PT Medium";
+  font-size: 5.1vw;
+  text-align: Left;
+  letter-spacing: 0.1vw;
+  line-height: 4.8vw;
+  color: #6AD3FF;
+}
+
+.homepage .body-text {
+  position: inherit;
+  top: 115.1vw;
+  left: 15.6vw;
+  width: 30.4vw;
+  height: 23.3vw;
+  font-family: "Futura PT Light";
+  font-size: 1.1vw;
+  text-align: Left;
+  letter-spacing: 0.0vw;
+  line-height: 1.8vw;
+  color: #fff;
+}
+
+.homepage .rearkart {
+  position: inherit;
+  top: 95.4vw;
+  left: 27.3vw;
+  width: 111.7vw;
+  height: 188.75vw;
+  overflow-y: hidden;
+  background: transparent url('/img/rollkall/rearkart.png') 0% 0% no-repeat padding-box;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.homepage .lets-roll {
+  position: inherit;
+  top: 139.0vw;
+  left: 15.7vw;
+  width: 9.4vw;
+  height: 2.7vw;
+  font-family: "Futura PT Medium";
+  font-size: 2.1vw;
+  text-align: Left;
+  letter-spacing: 0.1vw;
+  line-height: 4.8vw;
+  color: #6AD3FF;
+}
+
+.homepage .sidekart {
+  position: inherit;
+  top: 158.8vw;
+  left: 2.8vw;
+  width: 93vw;
+  height: 193.5vw;
+  overflow-y: hidden;
+  background: transparent url('/img/rollkall/sidekart.png') 0% 0% no-repeat padding-box;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.homepage .access-pass-info {
+  position: inherit;
+  top: 203.3vw;
+  left: 15.6vw;
+  width: 25.7vw;
+  height: 10.7vw;
+  font-family: "Futura PT Medium";
+  font-size: 5.1vw;
+  text-align: Left;
+  letter-spacing: 0.1vw;
+  line-height: 4.2vw;
+  color: #fff;
+}
+
+.homepage .access-box {
+  position: inherit;
+  left: 15.5vw;
+  width: 25.9vw;
+  height: 12.7vw;
+  overflow-y: hidden;
+  background: transparent url('/img/rollkall/pass_box.png') 0% 0% no-repeat padding-box;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.homepage .access-box.box1 {
+  position: inherit;
+  top: 215.6vw;
+}
+
+.homepage .access-box.box2 {
+  position: inherit;
+  top: 229.6vw;
+}
+
+.homepage .access-box.box3 {
+  position: inherit;
+  top: 243.5vw;
+}
+
+.homepage .pass-title {
+  position: inherit;
+  top: 230.2vw;
+  left: 17.2vw;
+  width: 22.6vw;
+  height: 4.2vw;
+  font-family: "Futura PT Medium";
+  font-size: 3.2vw;
+  text-align: Left;
+  letter-spacing: 0.1vw;
+  line-height: 4.2vw;
+  color: #fff;
+}
+
+.homepage .pass-title.xp {
+  position: inherit;
+  top: 220.2vw;
+}
+
+.homepage .pass-title.kommunity {
+  position: inherit;
+  top: 234vw;
+}
+
+.homepage .pass-title.discord {
+  position: inherit;
+  top: 248.3vw;
+}
+
+.homepage .pass-quantity {
+  position: inherit;
+  left: 17.2vw;
+  width: 2.4vw;
+  height: 1.4vw;
+  font-family: "Futura PT Medium";
+  font-size: 1.1vw;
+  text-align: Left;
+  letter-spacing: 0.0vw;
+  line-height: 4.2vw;
+  color: #C2F3FF;
+}
+
+.homepage .pass-quantity.xp {
+  position: inherit;
+  top: 216.1vw;
+}
+
+.homepage .pass-quantity.kommunity {
+  position: inherit;
+  top: 230.1vw;
+}
+
+.homepage .pass-quantity.discord {
+  position: inherit;
+  top: 244.3vw;
+}
+
+.homepage .pass-text-info {
+  position: inherit;
+  top: 215.6vw;
+  left: 48.6vw;
+  width: 27.3vw;
+  height: 68.5vw;
+  font-family: "Futura PT Light";
+  font-size: 1.0vw;
+  text-align: Left;
+  letter-spacing: 0.0vw;
+  line-height: 1.4vw;
+  color: #fff;
+}
+
+.homepage .bold-text {
+  position: inherit;
+  font-family: "Futura PT Bold";
+}
+
+.homepage .small-subheader {
+  position: inherit;
+  font-family: "Futura PT Medium";
+  font-size: 1.6vw;
+  line-height:2.1vw;
+}
+
+.homepage .medium-header {
+  font-size: 3.5vw;
+}
+
+.homepage .divider-slash.slash2 {
+  top: 287.8vw;
+  position: inherit;
+}
+
+
+.homepage .how-to-promotional {
+  position: inherit;
+  top: 297.3vw;
+  left: 15.5vw;
+  width: 23.4vw;
+  height: 13.4vw;
+  font-family: "Futura PT Medium";
+  font-size: 3.9vw;
+  text-align: left;
+  letter-spacing: 0.1vw;
+  line-height: 4.2vw;
+  color: #fff;
+}
+
+.homepage .how-to-promotional-text {
+  position: inherit;
+  top: 313.0vw;
+  left: 15.6vw;
+  width: 25.8vw;
+  height: 18.2vw;
+  font-family: "Futura PT Light";
+  font-size: 1.7vw;
+  text-align: left;
+  letter-spacing: 0.0vw;
+  line-height: 1.9vw;
+  color: #fff;
+}
+
+.homepage .promotional-note {
+  font-family: "Futura PT Light";
+  font-size: 1vw;
+  text-align: left;  
+}
+
+.homepage .divider-slash.slash3 {
+  top: 338.2vw;
+  position: inherit;
+}
+
+.homepage .twitter-verified {
+  position: inherit;
+  width: 1.3vw;
+  height: 1.3vw;
+  background: transparent url('/img/rollkall/Twitter_Verified_Badge.png') 0% 0% no-repeat padding-box;
+  background-size: cover;
+}
+
+.homepage .twitter-verified.brycent-verified {
+  position: inherit;
+  top: 306.6vw;
+  left: 58vw;
+}
+
+.homepage .twitter-verified.spike-verified {
+  position: inherit;
+  top: 309.9vw;
+  left: 76.3vw;
+}
+
+.homepage .twitter-verified.jonah-verified {
+  position: inherit;
+  top: 323.5vw;
+  left: 75.3vw;
+}
+
+.homepage .twitter-verified.elon-verified {
+  position: inherit;
+  top: 331.5vw;
+  left: 68.5vw;
+}
+
+.homepage .brycent {
+  position: inherit;
+  top: 297.9vw;
+  left: 47.2vw;
+  width: 9.5vw;
+  height: 9.4vw;
+  background: transparent url('/img/rollkall/brycent.png') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  border-radius: 3.2vw;
+  box-shadow: 0px 3px 99px #B2E3FF87;
+}
+
+
+.homepage .spike {
+  position: inherit;
+  top: 301.9vw;
+  left: 63.4vw;
+  width: 9.0vw;
+  height: 9.0vw;
+  background: transparent url('/img/rollkall/spike.png') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  border-radius: 3.2vw;
+  box-shadow: 0px 3px 99px #B2E3FF87;
+}
+
+.homepage .ready-player {
+  position: inherit;
+  top: 310.7vw;
+  left: 50.3vw;
+  width: 7.8vw;
+  height: 7.8vw;
+  background: transparent url('/img/rollkall/rpd.png') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  border-radius: 3.2vw;
+  box-shadow: 0px 3px 99px #B2E3FF87;
+}
+
+.homepage .jonah-blake {
+  position: inherit;
+  top: 315.1vw;
+  left: 67.1vw;
+  width: 9.2vw;
+  height: 9.2vw;
+  background: transparent url('/img/rollkall/jonah.png') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  border-radius: 3.2vw;
+  box-shadow: 0px 3px 99px #B2E3FF87;
+}
+
+.homepage .bored-elon {
+  position: inherit;
+  top: 323.7vw;
+  left: 52.3vw;
+  width: 9.0vw;
+  height: 9.0vw;
+  background: transparent url('/img/rollkall/boredelon.png') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  border-radius: 2.8vw;
+  box-shadow: 0px 3px 99px #B2E3FF87;
+}
+
+
+.homepage .influencer-handles {
+  position: inherit;
+  top: 306.4vw;
+  left: 51.4vw;
+  width: 6.6vw;
+  height: 1.9vw;
+  font-family: "Futura PT Medium";
+  font-size: 1.5vw;
+  text-align: left;
+  letter-spacing: 0.0vw;
+  line-height: 1.3vw;
+  color: #fff;
+}
+
+.homepage .influencer-handles:hover {
+  color: #6AD3FF;
+}
+
+.homepage .influencer-handles.brycent-handle {
+  position: inherit;
+  top: 306.4vw;
+  left: 51.4vw;
+  width: 6.6vw;
+}
+
+.homepage .influencer-handles.spike-handle {
+  position: inherit;
+  top: 309.7vw;
+  left: 67.2vw;
+  width: 6.6vw;
+}
+
+.homepage .influencer-handles.ready-player-handle {
+  position: inherit;
+  top: 319.1vw;
+  left: 50.4vw;
+  width: 6.6vw;
+}
+
+.homepage .influencer-handles.jonah-blake-handle {
+  position: inherit;
+  top: 323.4vw;
+  left: 63.7vw;
+}
+
+.homepage .influencer-handles.bored-elon-handle {
+  position: inherit;
+  top: 331.5vw;
+  left: 57.3vw;
+}
+
+.homepage .subheading3 {
+  position: inherit;
+  top: 352.4vw;
+  left: 15.6vw;
+  width: 12.4vw;
+  height: 6.5vw;
+  font-family: "Futura PT Medium";
+  font-size: 5.1vw;
+  text-align: left;
+  letter-spacing: 0.1vw;
+  line-height: 4.2vw;
+  color: #fff;
+}
+
+.homepage .subheading4 {
+  position: inherit;
+  top: 360.7vw;
+  width: 8.6vw;
+  height: 7.8vw;
+  font-family: "Futura PT Medium";
+  font-size: 6.0vw;
+  text-align: left;
+  letter-spacing: 0.2vw;
+  line-height: 4.8vw;
+  color: #6AD3FF;
+}
+
+.homepage .subheading4.collectible {
+  position: inherit;
+  left: 38.2vw;
+}
+
+.homepage .subheading4.exclusive {
+  position: inherit;
+  left: 62.3vw;
+  width: 10.6vw;
+}
+
+.homepage .flag-image {
+  position: inherit;
+  top: 360.7vw;
+  left: 16.6vw;
+  width: 4.8vw;
+  height: 5.2vw;
+  overflow-y: hidden;
+  background: transparent url('/img/rollkall/flag.png') 0% 0% no-repeat padding-box;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.homepage .foot-text {
+  top: 370.5vw;
+  width: 17.5vw;
+  height: 21.4vw;
+  font-family: "Futura PT Demi";
+  font-size: 1.2vw;
+  text-align: left;
+  letter-spacing: 0.0vw;
+  line-height: 1.6vw;
+  color: #fff;
+}
+
+.homepage .foot-text.playable {
+  position: inherit;
+  left: 16.1vw;
+}
+
+.homepage .foot-text.collectible {
+  position: inherit;
+  left: 38.8vw;
+}
+
+.homepage .foot-text.exclusive {
+  position: inherit;
+  left: 62.6vw;
+}
+
+.homepage .divider-slash {
+  position: inherit;
+  left: 15.6vw;
+  width: 68.3vw;
+  height: 0.9vw;
+  font-family: "Futura PT Medium";
+  font-size: 0.7vw;
+  text-align: Left;
+  letter-spacing: 0.0vw;
+  line-height: 4.2vw;
+  color: #fff;
+}
+
+/* before Utility */
+.homepage .divider-slash.slash4 {
+  top: 390.7vw;
+  position: inherit;
+}
+
+.homepage .divider-slash.slash5 {
+  top: 422vw;
+  position: inherit;
+}
+
+/* before LFR */
+.homepage .divider-slash.slash6 {
+  top: 349.0vw;
+  position: inherit;
+}
+
+.homepage .footing-header {
+  position: inherit;
+  top: 400.8vw;
+  left: 41.9vw;
+  width: 16.2vw;
+  height: 12.3vw;
+  font-family: "Futura PT Medium";
+  font-size: 9.6vw;
+  text-align: left;
+  letter-spacing: 0.2vw;
+  line-height: 4.8vw;
+  color: #6AD3FF;
+}
+
+.homepage .rights-reserved {
+  position: inherit;
+  top: 427vw;
+  left: 15.6vw;
+  width: 20.1vw;
+  height: 1.4vw;
+  font-family: "Futura PT Light";
+  font-size: 1.1vw;
+  text-align: left;
+  letter-spacing: 0.0vw;
+  line-height: 1.8vw;
+  color: #fff;
+}
+
+
+.homepage .button-style {
+  position: inherit;
+  box-shadow: 0vw -0.4vw 5.2vw #95EAFF;
+  border-radius: 2vw;
+  font-family: "Futura PT Medium";
+  width: 26.5vw;
+  height: 4.0vw;
+  font-family: "Futura PT Medium";
+  font-size: 1.2vw;
+  text-align: center;
+  letter-spacing: 0.3vw;
+  line-height: 2.2vw;
+  background-color: #100521;
+  padding: 0;
+  color: #F2F2F2;
+  border: none;
+}
+
+
+.homepage .button-style.discord {
+  position: inherit;
+  top: 411.1vw;
+  left: 35.7vw;
+}
+
+.homepage .button-style.discord:hover {
+  color: #6AD3FF;
+}
+
+.homepage .button-style.discord1 {
+  position: inherit;
+  top: 147.4vw;
+  left: 15.6vw;
+}
+
+.homepage .button-style.discord1:hover {
+  color: #6AD3FF;
+}
+
+@media screen and (max-width: 1000px) {
+  .h5 {
+    font-size: .8em;
+    margin-top: 2em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .h5 {
+    font-size: .6em;
+    margin-top: 1em;
+  }
+}
