@@ -103,6 +103,17 @@
     font-family: "Kartooni";
   }
 
+  .tokenomics-buttons {
+    background-color: #ffffff1f;
+    font-size: 1.7vw;
+    text-align: center;
+    letter-spacing: 0vw;
+    border-radius: 182px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 2vw 6vw;
+  }
+
   .white-blue-button {
     background-color: #fff;
     font-size: 1.4vw;
