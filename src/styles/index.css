@@ -85,8 +85,10 @@
   }
 
   h4 {
-    font-size: 1vw;
+    font-size: 1.1vw;
     font-family: "Lovelo";
+    text-transform: none;
+    font-variant: small-caps;
   }
 
   p {
@@ -194,4 +196,10 @@
   height: auto;
   background-position: center;
   overflow: hidden;
+}
+
+@layer components {
+  .kitty-inu-dao {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+  }
 }
