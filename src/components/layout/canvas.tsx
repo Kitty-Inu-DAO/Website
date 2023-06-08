@@ -36,9 +36,16 @@ const LControl = () => {
       enableZoom={false}
       domElement={dom.current}
       position={[-3, -10, 4]}
+    //target={[0, 0, -1]}
     />
   )
 }
+
+//position={[0, 20, 0]}
+//position={[0, 0, 0]}
+//position={[-3, -10, 4]}
+//position={[-3, -10, 4]}
+
 const LCanvas = ({ children }) => {
   const dom = useStore((state) => state.dom)
 
@@ -56,22 +63,25 @@ const LCanvas = ({ children }) => {
           <Preload all />
           {children}
         </Suspense>
-        {/* <ambientLight color='#e9e0c9' intensity={0.7} /> */}
+        {/* <directionalLight color="0xffffff" intensity={.4} position={[-110, 60, 140]} />
+        <directionalLight color="0xffffff" intensity={.4} position={[110, 60, 140]} />
+        <directionalLight color="0xffffff" intensity={1.2} position={[-80, 100, -300]} /> */}
+        <ambientLight color='#e9e0c9' intensity={.8} />
         <hemisphereLight
-          intensity={0.25}
+          intensity={0.2}
           color='#ffffff'
           groundColor='#ffffff'
         />
-        <spotLight
+        {/* <spotLight
           castShadow
-          color='#e9e0c9'
-          intensity={.02}
+          color='#ffffff'
+          intensity={.01}
           position={[-50, 50, 40]}
           angle={0.25}
           penumbra={1}
           shadow-mapSize={[128, 128]}
           shadow-bias={0.00005}
-        />
+        /> */}
       </Canvas>
       {/* <Loader /> */}
     </>

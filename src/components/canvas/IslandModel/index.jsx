@@ -40,7 +40,6 @@ const IslandModel = ({ }) => {
                 console.error('An error happened', error);
             }
         );
-
     }, [scene])
 
     const model = useGLTF('/3d/island.gltf')
@@ -102,10 +101,12 @@ const IslandModel = ({ }) => {
     const pointLight = useMemo(() => new THREE.PointLight(0xffffff, 2, 100), []);
     pointLight.position.set(0, 15, 0);
 
-    useEffect(() => {
-        modelObj.add(pointLight);
-        modelObj.add(spotlight);
-    }, [modelObj, pointLight, spotlight]);
+
+
+    // useEffect(() => {
+    //     modelObj.add(pointLight);
+    //     modelObj.add(spotlight);
+    // }, [modelObj, pointLight, spotlight]);
 
     // useEffect(() => {
     //     if (assetID) {
@@ -143,7 +144,7 @@ const IslandModel = ({ }) => {
 
     return (
         <>
-            <mesh ref={mesh} scale={[0.002, 0.002, 0.002]} position={[-1, .35, 1]} rotation={[.4, 0, 0]}>
+            <mesh ref={mesh} scale={[0.002, 0.002, 0.002]} position={[-1, .1, 1.2]} rotation={[.3, .1, -.01]}>
                 <primitive object={modelObj} />
             </mesh>
         </>
