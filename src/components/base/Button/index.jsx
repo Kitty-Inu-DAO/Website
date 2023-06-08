@@ -7,25 +7,19 @@ export default function Button({ children, ...props }) {
 
 export function InternalLink({ href, children }) {
   return (
-    <Link href={href}>
-      <a className={styles.link}>{children}</a>
-    </Link>
+    <Link href={href} className={styles.link}>{children}</Link>
   )
 }
 
 export function InternalLinkNav({ href, children }) {
   return (
-    <Link href={href}>
-      <a className={`${styles.link}`}>{children}</a>
-    </Link>
+    <Link href={href} className={`${styles.link}`}>{children}</Link>
   )
 }
 
 export function InternalLinkTC({ href, children }) {
   return (
-    <Link href={href}>
-      <a className={styles.tc_internal_link}>{children}</a>
-    </Link>
+    <Link href={href} className={styles.tc_internal_link}>{children}</Link>
   )
 }
 
@@ -47,8 +41,6 @@ export function HeaderExternalLink({ children, href, ...props }) {
 
 export function HeaderInternalLink({ href, children }) {
   return (
-    <Link href={href}>
-      <a className={`${styles.link} ${styles.header}`}>{children}</a>
-    </Link>
+    <Link href={href} className={`${styles.link} ${styles.header}`}>{children}</Link>
   )
 }
