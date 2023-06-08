@@ -1,8 +1,6 @@
 import { useEffect } from 'react'
 import { useInView } from 'react-intersection-observer'
 import { motion, useAnimation } from 'framer-motion'
-import ReactPlayer from 'react-player'
-import styles from '../styles/styles.module.css';
 
 import Header from '@/components/base/Header'
 import Hero from '@/components/base/Hero'

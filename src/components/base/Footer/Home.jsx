@@ -6,8 +6,8 @@ export default function HomeFooter() {
       <div className='flex justify-between items-center ml-2 mt-4 mr-2 mb-4'>
         <div className='ml-20 w-1/2 text-left'>
           <div className='w-3/4 text-left'>
-            <h2>Join the Krew</h2>
-            <h4>Join discord, telegram, or follow us on twitter for updates, announcements, and more</h4>
+            {/* <h2>Join the Krew! 👇</h2> */}
+            {/* <h4>Join discord, telegram, or follow us on twitter for updates, announcements, and more</h4> */}
             <div className="flex space-x-10 mt-4">
               <ExternalLink href='https://twitter.com/kittyinutoken' className='text-white'><img src='/img/social_icons/social_twitter.svg' alt='twitter' className='h-8 w-8 hover:opacity-50' /></ExternalLink>
               <ExternalLink href='https://discord.com/invite/kittyinu' className='text-white'><img src='img/social_icons/social_discord.svg' alt='Discord' className='h-8 w-8 hover:opacity-50' /></ExternalLink>
@@ -18,7 +18,7 @@ export default function HomeFooter() {
         </div>
 
 
-        <div className='w-1/2 items-left grid grid-cols-2 grid-rows-2 gap-x-4 space-y-0 text-left'>
+        {/* <div className='w-1/2 items-left grid grid-cols-2 grid-rows-2 gap-x-4 space-y-0 text-left'>
           <div>
             <ul>
               <li>
@@ -64,7 +64,7 @@ export default function HomeFooter() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
 
       </div>
     </footer>

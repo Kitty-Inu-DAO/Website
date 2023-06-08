@@ -1,3 +1,28 @@
+# 
+
+[![Release Version](https://img.shields.io/github/release/Kitty-Inu-DAO/Website.svg)](https://github.com/Kitty-Inu-DAO/Website/releases/latest)
+
+Website for the Kitty Inu DAO. 
+
+## Installation
+
+### npm
+
+The recommendation is to clone this repository and run:
+
+```
+npm install
+```
+
+Then 
+
+```
+npm run build
+
+```
+
+## Dependencies
+
 ### :mount_fuji: Features
 
 - [x] Automatically inject r3f component in the Canvas
@@ -47,3 +72,14 @@ export default Page
 - [`@react-three/drei` - Optional](https://github.com/pmndrs/drei) &ndash; useful helpers for react-three-fiber
 - [`@react-three/a11y` - Optional](https://github.com/pmndrs/react-three-a11y/) &ndash; Accessibility tools for React Three Fiber
 - [`r3f-perf` - Optional](https://github.com/RenaudRohlinger/r3f-perf) &ndash; Tool to easily monitor react threejs performances.
+
+## 
+
+## Feedback
+Please feel free to:
+
+* submit suggestions and bug-reports at: <https://github.com/Kitty-Inu-DAO/Website/issues>
+* send pull requests after forking: <https://github.com/Kitty-Inu-DAO/Website/>
+
+## Copyright and License
+see [COPYRIGHT](COPYRIGHT.md) and [LICENSE](LICENSE.md) files for copyright and license information.
