@@ -91,9 +91,10 @@
 
   p {
     color: #fff;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     letter-spacing: 0vw;
     font-family: "Lovelo";
+    font-variant: small-caps;
   }
 
   .kartooni {
