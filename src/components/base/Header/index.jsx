@@ -17,10 +17,10 @@ export default function Header() {
         </HeaderInternalLink>
         <HeaderInternalLink href='/about'>About</HeaderInternalLink>
         <HeaderExternalLink href='https://rapid-fire-1381.on.fleek.co/introduction-kitty-inu/'>Governance</HeaderExternalLink>
-        <HeaderExternalLink href='https://www.youtube.com/watch?v=dQw4w9WgXcQ/'>
+        <HeaderInternalLink href='/whitepaper'>
           {/* Rick Roll! */}
           Whitepaper
-        </HeaderExternalLink>
+        </HeaderInternalLink>
         <HeaderInternalLink href='/tokenomics'>Tokenomics</HeaderInternalLink>
         <HeaderInternalLink href='/buy'>Buy</HeaderInternalLink>
       </div>
