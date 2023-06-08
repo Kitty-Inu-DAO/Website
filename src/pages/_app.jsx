@@ -36,8 +36,7 @@ function App({ Component, pageProps = { title: 'index' } }) {
       <Header title={pageProps.title} />
       <Transition>
         <Dom classes={isColored}>
-          {/* <Dom className={`${pageProps.title == 'Buy' ? 'colored-background' : null}`}> */}
-          {Component && progress >= 100 ? <Component {...pageProps} /> : null}
+          {Component && <Component {...pageProps} />}
         </Dom>
       </Transition>
       {Component?.r3f && (
