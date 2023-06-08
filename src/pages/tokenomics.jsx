@@ -28,7 +28,7 @@ export default function RealAgents() {
             <Header />
             <Hero title='Tokenomics' description='' />
             <img src='/img/projects/Kollektion.jpg'></img>
-            <main className='m-auto w-10/12 mb-auto bg-sky-800/50 px-10 py-8 rounded-lg'>
+            <main className='m-auto w-11/12 lg:w-10/12 xl:w-8/12 mb-auto bg-sky-800/50 px-10 py-8 rounded-lg'>
                 <h2 className='mb-5'>Total Supply: Billionaire Catnip</h2>
                 <div className='flex gap-10 mb-8 mt-12'>
                     <div className='flex-1 flex items-center justify-center'>
