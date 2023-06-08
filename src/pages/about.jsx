@@ -27,8 +27,8 @@ export default function About() {
     <>
       <Header />
       <Hero title='About' description='' />
-      <main className='m-auto w-8/12 mb-auto'>
-        <h2 className='mt-24 mb-5'>This ain't your grandma's knitting circle</h2>
+      <main className='m-auto w-8/12 mb-auto bg-sky-800/50 px-10 py-8 rounded-lg'>
+        <h2 className='mb-5'>This ain't your grandma's knitting circle</h2>
         <p className='text-white'>
           We're a decentralized pack of meme coin junkies, gaming gurus, creative technomancers, and art aficionados. Here, we're about more than just raising the roof; we're about raising the woof...err... meow?
         </p>

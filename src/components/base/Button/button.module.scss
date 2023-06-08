@@ -2,12 +2,12 @@
   display: inline-block;
   cursor: pointer;
   color: #fff;
-  text-transform: uppercase;
   letter-spacing: 0.2vw;
   text-indent: 0.2vw;
-  font-size: 1vw;
+  font-size: 1.0vw;
   user-select: none;
   font-family: 'Lovelo';
+  font-variant: small-caps;
 
   &:hover {
     opacity: 0.8;
@@ -23,8 +23,8 @@
 .link.header {
   padding-right: 1vw;
   padding-left: 1vw;
+  font-variant: none;
 }
-
 
 .header_internal_link {
   display: inline-block;
