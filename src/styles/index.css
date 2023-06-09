@@ -103,13 +103,13 @@
 
   .tokenomics-buttons {
     background-color: #ffffff1f;
-    font-size: 1.7vw;
+    font-size: 1.4em;
     text-align: center;
-    letter-spacing: 0vw;
+    letter-spacing: 0;
     border-radius: 182px;
     color: #fff;
     text-transform: uppercase;
-    padding: 2vw 6vw;
+    padding: 1em 2.5em;
   }
 
   .white-blue-button {
@@ -208,7 +208,6 @@
   background: transparent url('/img/buy/background.svg') 0% 0% no-repeat padding-box;
   background-size: cover;
   opacity: 1;
-  height: auto;
   background-position: center;
   overflow: hidden;
 }

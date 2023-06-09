@@ -60,7 +60,7 @@ export default function Header() {
              aria-current="page">About</Link>
           <Link href="https://rapid-fire-1381.on.fleek.co/introduction-kitty-inu/"
              className="text-white hover:bg-[#e43a95] hover:text-white block rounded-md px-3 py-2">Governance</Link>
-          <Link href="#"
+          <Link href="/whitepaper"
              className="text-white hover:bg-[#e43a95] hover:text-white block rounded-md px-3 py-2">Whitepaper</Link>
           <Link href="/tokenomics"
              className="text-white hover:bg-[#e43a95] hover:text-white block rounded-md px-3 py-2">Tokenomics</Link>
