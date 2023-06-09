@@ -18,3 +18,11 @@ export default function Error() {
     </>
   )
 }
+
+export async function getStaticProps() {
+  return {
+    props: {
+      title: 'Page not found',
+    },
+  }
+}
