@@ -60,10 +60,8 @@
   h4 {
     font-family: "Kartooni";
     text-transform: uppercase;
-    pointer-events: none;
     color: #fff;
   }
-
 
   h1 {
     font-size: 5em;
@@ -199,8 +197,15 @@
 }
 
 @layer components {
+  #home-page #footer { position: absolute; bottom: 0 }
   .kitty-inu-dao {
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+    font-size: 1.5em;
+  }
+  @media screen and (min-width: 400px) {
+    .kitty-inu-dao {
+      font-size: 2em;
+    }
   }
   @media screen and (min-width: 1280px) {
     .kitty-inu-dao {
