@@ -9,7 +9,7 @@ const variants = {
     scale: 0.9,
     opacity: 1,
     transition: {
-      delay: 0.8,
+      delay: 0.1,
     },
   },
 }
