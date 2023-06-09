@@ -27,13 +27,18 @@ function App({ Component, pageProps = { title: 'index' } }) {
   const isPortrait = useMediaQuery({ query: '(max-width: 1024px)' });
   const isColored = pageProps.title == 'Buy' || pageProps.title == 'Whitepaper' ? 'colored-background' : '';
 
+  let title = 'Kitty Inu DAO';
+  if (pageProps.title && pageProps.title !== 'Home') {
+    title = pageProps.title + ' - ' + title;
+  }
+
   useEffect(() => {
     setState({ router })
   }, [router])
 
   return (
     <>
-      <Header title={pageProps.title} />
+      <Header title={title} />
       <Transition>
         <Dom classes={isColored}>
           {Component && <Component {...pageProps} />}
