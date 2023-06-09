@@ -24,7 +24,7 @@ export default function Tokenomics() {
       <>
         <Header />
         <main className='m-auto w-11/12 lg:w-10/12 xl:w-8/12 pb-10'>
-          <section className='bg-sky-800/30 px-10 pt-4 pb-16 rounded-b-lg' style={{ backdropFilter: 'blur(20px)' }}>
+          <section className='bg-sky-800/30 px-5 sm:px-10 pt-4 pb-16 rounded-b-lg' style={{ backdropFilter: 'blur(20px)' }}>
           <Hero title='Tokenomics' description='' />
 
           <div className='flex flex-col items-center justify-center'>
