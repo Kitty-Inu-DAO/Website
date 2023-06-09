@@ -22,11 +22,12 @@ export default function Buy() {
     return (
         <>
             <Header />
-            <main className='flex pt-8 pb-16 flex-col items-center justify-center ml-auto mr-auto w-12/12 mb-auto' style={{
+            <main className='flex flex-col items-center justify-center m-auto pb-12' style={{
               background: 'url(/img/buy/coin_overlay.webp)',
               backgroundPosition: 'right -450px center',
               backgroundRepeat: 'no-repeat'
             }}>
+              <section className='w-11/12 lg:w-10/12 xl:w-8/12 flex flex-col items-center justify-center bg-[#b517b3]/30 px-10 pt-4 pb-16 rounded-b-lg' style={{ backdropFilter: 'blur(15px)' }}>
               <Hero title='Buy Kitty Inu Token' description='' />
               <p>$kitty is currently only available on the decentralized exchange, Uniswap</p>
                 <button className='white-blue-button dex mt-12 flex items-center cursor-pointer transform transition-all duration-200 ease-in shadow-md hover:shadow-sm hover:translate-y-1'>
@@ -41,10 +42,11 @@ export default function Buy() {
                     on centralized exchanges
                 </button>
 
-                <p className='text-xs'>On May 20th, 2023 Kitty Inu migrated to an upgraded and optimized ERC20 contract!</p>
-                <p className='text-xs mt-4'>New Contract Address:</p>
-                <p className='text-sm mt-4'>0x61a35258107563f6b6f102ae25490901c8760b12</p>
-                <p className='text-xs mt-4'>V2 tokens were airdropped 1:1 to wallets holding the V1 token.</p>
+                <p className='text-sm'>On May 20th, 2023 Kitty Inu migrated to an upgraded and optimized ERC20 contract!</p>
+                <p className='text-sm mt-4'>New Contract Address:</p>
+                <p className='text-lg mt-4'>0x61a35258107563f6b6f102ae25490901c8760b12</p>
+                <p className='text-sm mt-4'>V2 tokens were airdropped 1:1 to wallets holding the V1 token.</p>
+              </section>
             </main>
             <HomeFooter />
         </>
