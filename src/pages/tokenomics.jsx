@@ -22,18 +22,18 @@ export default function Tokenomics() {
     return (
         <>
             <Header />
-            <main className='m-auto w-10/12 mb-auto bg-sky-800/30 px-10 py-8 rounded-lg' style={{ backdropFilter: 'blur(20px)' }}>
+            <main className='m-auto w-11/12 lg:w-10/12 xl:w-8/12 bg-sky-800/30 px-10 pt-4 pb-16 rounded-b-lg' style={{ backdropFilter: 'blur(20px)' }}>
                 <Hero title='Tokenomics' description='' />
                 <div className='flex flex-col items-center justify-center'>
-                    <div className='mt-12 flex items-center text-center'>
+                    <div className='mt-6 flex items-center text-center'>
                         Token Ticker:
                         <img src='/img/buy/kitty_icon.svg' className='ml-2 mr-2 w-6 h-6'></img>
                         $kitty
                         <span className='ml-10 mr-2'> L1 Chain:</span> Ethereum Network
                     </div>
-                    <button className='tokenomics-buttons disable mt-12 mb-5 flex items-center cursor-pointer shadow transform transition duration-200 ease-in'>
+                    <button className='tokenomics-buttons disable mt-12 mb-5 flex items-center cursor-text shadow transform transition duration-200 ease-in'>
                         <img src='/img/buy/kitty_icon.svg' className='ml-2 mr-2 w-6 h-6'></img>
-                        731,738, 978, 480
+                        731,738,978,480
                     </button>
                     <h2 className='flex items-center text-center mt-8'>
                         Total & Circulating Supply
