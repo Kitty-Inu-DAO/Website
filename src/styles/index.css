@@ -208,7 +208,6 @@
   background: transparent url('/img/buy/background.svg') 0% 0% no-repeat padding-box;
   background-size: cover;
   opacity: 1;
-  height: auto;
   background-position: center;
   overflow: hidden;
 }
