@@ -51,7 +51,7 @@ export default function About() {
           <p className='text-white text-center mt-8'>
             Fueling our meme-powered rocket is the Kitty Inu token, the ERC20 certified digital tuna that governs our DAO. It's not just another fish in the sea; it's your boarding pass into the fur-midable world of DAO governance. Remember, in Kitty Inu DAO, your vote doesn't just count; it purrs!
           </p>
-          <h2 className='mt-16 mb-5 text-shadow'>cat-doge of the interwebz</h2>
+          <h2 className='mt-16 mb-5 text-shadow text-center'>cat-doge of the interwebz</h2>
           <div className='flex gap-10 mb-8 mt-8 items-center'>
             <div className='flex-1 justify-center'>
               <p className='text-white'>
@@ -70,7 +70,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <h2 className='mt-16 mb-5 text-shadow'>Stacks on Deck</h2>
+          <h2 className='mt-16 mb-5 text-shadow text-center'>Stacks on Deck</h2>
           <p className='text-white mt-8'>
             But hey, we're not just here to play; we're here to PAW-er up the community. Our DAO's treasury is the beating heart that pumps liquid gold - or should we say milk? - into community initiatives. We're all about that diamond paws life, hodling together and propelling projects that give everyone in the DAO a reason to say "GM!"
           </p>
