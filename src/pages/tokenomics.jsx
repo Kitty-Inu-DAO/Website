@@ -51,7 +51,7 @@ export default function Tokenomics() {
 
           <div className="md:flex mt-8 mb-5">
             <div className="mb-8 md:mb-0 md:max-w-[320px] md:flex-1">
-              <Image className="w-full rounded-2xl drop-shadow-xl" width="320" height="320" src="/img/tokenomics/pancake_kitty.webp" alt="Kitty eating a cake" />
+              <Image className="w-full rounded-2xl drop-shadow-xl" width="640" height="640" src="/img/tokenomics/pancake_kitty.webp" alt="Kitty eating a cake" />
             </div>
             <div className="md:flex-1 md:pl-8">
               <h3 className='text-2xl'>The DAO's Meow-llionaire's Club: 38%</h3>
@@ -63,7 +63,7 @@ export default function Tokenomics() {
 
           <div className="md:flex mt-10 mb-5">
             <div className="mb-8 md:mb-0 md:max-w-[320px] md:flex-1 md:order-2">
-              <Image className="w-full rounded-2xl drop-shadow-xl" width="320" height="320" src="/img/tokenomics/celebration_kitty.webp" alt="Kitty celebrating" />
+              <Image className="w-full rounded-2xl drop-shadow-xl" width="640" height="640" src="/img/tokenomics/celebration_kitty.webp" alt="Kitty celebrating" />
             </div>
             <div className="md:flex-1 md:pr-8 md:order-1">
               <h3 className='text-2xl'>The Kitty Litter: 62%</h3>
