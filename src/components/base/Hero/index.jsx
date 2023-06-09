@@ -25,7 +25,7 @@ export default function Hero({
       animate='visible'
       variants={variants}
     >
-      <h1 className='kartooni my-5 mt-10'>{title}</h1>
+      <h1 className='kartooni my-5 mt-10 break-all md:break-normal'>{title}</h1>
       <p className='absolute top-1/2 left-1/2'>{description}</p>
     </motion.div>
   )
