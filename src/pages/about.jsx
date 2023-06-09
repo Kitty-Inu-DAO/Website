@@ -26,7 +26,8 @@ export default function About() {
   return (
     <>
       <Header />
-      <main className='m-auto w-11/12 lg:w-10/12 xl:w-8/12 bg-sky-800/30 px-10 pt-4 pb-16 rounded-b-lg' style={{ backdropFilter: 'blur(20px)' }}>
+      <main className='m-auto w-11/12 lg:w-10/12 xl:w-8/12 pb-10'>
+        <section className='bg-sky-800/30 px-10 pt-4 pb-16 rounded-b-lg' style={{ backdropFilter: 'blur(20px)' }}>
         <Hero title='About' description='' />
         <h2 className='mt-12 mb-5'>This ain't your grandma's knitting circle</h2>
         <p className='text-white'>
@@ -51,6 +52,7 @@ export default function About() {
         <p className='mt-16'>
           Get ready to put those laser eyes to work and join us in making every day Caturday. To infinity and beyond, frens!
         </p>
+        </section>
       </main>
       <HomeFooter />
     </>

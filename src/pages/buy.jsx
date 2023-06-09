@@ -23,7 +23,7 @@ export default function Buy() {
         <>
             <Header />
             <Hero title='Buy Kitty Inu Token' description='' />
-            <main className='flex mt-8 flex-col items-center justify-center ml-auto mr-auto w-12/12 mb-auto'>
+            <main className='flex pt-8 flex-col items-center justify-center ml-auto mr-auto w-12/12 mb-auto'>
                 <p>$kitty is currently only available on the decentralized exchange, Uniswap</p>
                 <button className='white-blue-button dex mt-12 flex items-center cursor-pointer transform transition-all duration-200 ease-in shadow-md hover:shadow-sm hover:translate-y-1'>
                     Buy

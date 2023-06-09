@@ -23,7 +23,8 @@ export default function Tokenomics() {
     return (
       <>
         <Header />
-        <main className='m-auto w-11/12 lg:w-10/12 xl:w-8/12 bg-sky-800/30 px-10 pt-4 pb-16 rounded-b-lg' style={{ backdropFilter: 'blur(20px)' }}>
+        <main className='m-auto w-11/12 lg:w-10/12 xl:w-8/12 pb-10'>
+          <section className='bg-sky-800/30 px-10 pt-4 pb-16 rounded-b-lg' style={{ backdropFilter: 'blur(20px)' }}>
           <Hero title='Tokenomics' description='' />
 
           <div className='flex flex-col items-center justify-center'>
@@ -36,7 +37,6 @@ export default function Tokenomics() {
               731,738,978,480
             </button>
           </div>
-
 
           <div>
             <h2 className='text-center mt-8'>
@@ -72,7 +72,7 @@ export default function Tokenomics() {
               </p>
             </div>
           </div>
-
+          </section>
         </main >
         <HomeFooter />
       </>
