@@ -25,7 +25,7 @@ function App({ Component, pageProps = { title: 'index' } }) {
   const { progress } = useProgress()
 
   const isPortrait = useMediaQuery({ query: '(max-width: 1024px)' });
-  const isColored = pageProps.title == 'Buy' ? 'colored-background' : '';
+  const isColored = pageProps.title == 'Buy' || pageProps.title == 'Whitepaper' ? 'colored-background' : '';
 
   useEffect(() => {
     setState({ router })

@@ -15,11 +15,11 @@ const IslandModel = dynamic(() => import('@/components/canvas/IslandModel/').the
 
 const Page = () => {
   return (
-    <>
+    <div id='home-page'>
       <Header />
       <NavFooter />
       <HomeFooter />
-    </>
+    </div>
   )
 }
 
