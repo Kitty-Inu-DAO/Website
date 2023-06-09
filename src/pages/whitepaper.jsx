@@ -23,8 +23,8 @@ export default function Whitepaper() {
         <>
             <Header />
             <Hero title='Whitepaper' description='' />
-            <main className='flex mt-8 flex-col items-center justify-center ml-auto mr-auto w-12/12 mb-auto'>
-                <div className="video-embed aspect-w-16 aspect-h-9 max-w-full">
+            <main className='flex mt-8 flex-col items-center justify-center mx-auto mb-auto'>
+                <div className="w-full aspect-video px-10 max-w-6xl">
                     <iframe
                         src='https://www.youtube.com/embed/dQw4w9WgXcQ/'
                         title="YouTube video player"
