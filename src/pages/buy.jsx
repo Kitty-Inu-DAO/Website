@@ -22,9 +22,13 @@ export default function Buy() {
     return (
         <>
             <Header />
-            <Hero title='Buy Kitty Inu Token' description='' />
-            <main className='flex pt-8 flex-col items-center justify-center ml-auto mr-auto w-12/12 mb-auto'>
-                <p>$kitty is currently only available on the decentralized exchange, Uniswap</p>
+            <main className='flex pt-8 pb-16 flex-col items-center justify-center ml-auto mr-auto w-12/12 mb-auto' style={{
+              background: 'url(/img/buy/coin_overlay.webp)',
+              backgroundPosition: 'right -450px center',
+              backgroundRepeat: 'no-repeat'
+            }}>
+              <Hero title='Buy Kitty Inu Token' description='' />
+              <p>$kitty is currently only available on the decentralized exchange, Uniswap</p>
                 <button className='white-blue-button dex mt-12 flex items-center cursor-pointer transform transition-all duration-200 ease-in shadow-md hover:shadow-sm hover:translate-y-1'>
                     Buy
                     <img src='/img/buy/kitty_icon.svg' className='ml-2 mr-2 w-6 h-6'></img>
@@ -41,7 +45,6 @@ export default function Buy() {
                 <p className='text-xs mt-4'>New Contract Address:</p>
                 <p className='text-sm mt-4'>0x61a35258107563f6b6f102ae25490901c8760b12</p>
                 <p className='text-xs mt-4'>V2 tokens were airdropped 1:1 to wallets holding the V1 token.</p>
-                <img className='absolute z-[-1] mt-40' style={{ left: "45%" }} src='/img/buy/coin_overlay.webp'></img>
             </main>
             <HomeFooter />
         </>
