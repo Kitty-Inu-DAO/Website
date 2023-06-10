@@ -7,6 +7,12 @@ module.exports = {
   darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
+      fontSize: {
+        'xxs': '.5rem'
+      },
+      lineHeight: {
+        'extra-tight': '.5rem'
+      },
       colors: {
         transparent: {
           100: 'rgba(0, 0, 0, 0.7)',
