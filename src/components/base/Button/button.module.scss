@@ -2,9 +2,9 @@
   display: inline-block;
   cursor: pointer;
   color: #fff;
-  letter-spacing: 0.2vw;
-  text-indent: 0.2vw;
-  font-size: 1.0vw;
+  letter-spacing: 0.1em;
+  text-indent: 0.1em;
+  font-size: 1.0em;
   user-select: none;
   font-family: 'Lovelo';
   font-variant: small-caps;
@@ -16,14 +16,32 @@
 
 .link .nav {
   opacity: 0.5;
-  padding-right: 4vw;
-  padding-left: 4vw;
+  padding-right: 4em;
+  padding-left: 4em;
 }
 
 .link.header {
-  padding-right: 1vw;
-  padding-left: 1vw;
+  padding-right: 0.3em;
+  padding-left: 0.3em;
   font-variant: none;
+  font-size: 1.1em;
+}
+
+@media screen and (min-width: 1280px) {
+  .link.header {
+    padding-right: 0.4em;
+    padding-left: 0.4em;
+    font-variant: none;
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .link.header {
+    padding-right: 0.8em;
+    padding-left: 0.8em;
+    font-size: 1.3em;
+  }
 }
 
 .header_internal_link {

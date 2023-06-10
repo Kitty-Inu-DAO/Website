@@ -41,3 +41,8 @@ report.*.json
 # .vscode Debugging
 .vscode/*-debug-profile
 
+# yarn
+yarn.lock
+
+# jetbrain
+.idea
