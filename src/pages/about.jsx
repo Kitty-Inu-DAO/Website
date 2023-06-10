@@ -30,7 +30,7 @@ export default function About() {
       <main className='m-auto w-11/12 bg-sky-800/30 backdrop-blur-md lg:w-10/12 xl:w-8/12 pb-10'>
         <section className='px-5 sm:px-10 pt-4 pb-16 rounded-b-lg'>
           <Hero title='About' description='' />
-          <div class='flex'>
+          <div className='flex'>
             <div className='flex-1 video-wrapper mt-4'>
               <div>
                 <ReactPlayer
