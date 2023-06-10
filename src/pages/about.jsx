@@ -35,7 +35,7 @@ export default function About() {
                         <div className='flex-1 video-wrapper mt-4'>
                             <div>
                                 {hasWindow &&
-                                    <video width='100%' height='100%' controls>
+                                    <video width='100%' height='100%' controls poster="/img/about/kittys_back_poster.png">
                                         <source src="/img/about/kittys_back.webm" type="video/webm" />
                                         <source src="/img/about/kittys_back_hevc_265.mp4" type="video/mp4" />
                                         <source src="/img/about/kittys_back_264_low_res.mp4" type="video/mp4" />
@@ -62,10 +62,10 @@ export default function About() {
                         <div className='flex-1 mt-8 md:mt-0'>
                             <div>
                                 {hasWindow &&
-                                    <video width='100%' height='100%' controls>
+                                    <video width='100%' height='100%' controls poster="/img/about/kitty_news_poster.png">
                                         <source src="/img/about/kitty_news.webm" type="video/webm" />
-                                        <source src="/img/about/kittys_news_hevc_265.mp4" type="video/mp4" />
-                                        <source src="/img/about/kittys_news_264_low_res.mp4" type="video/mp4" />
+                                        <source src="/img/about/kitty_news_hevc_265.mp4" type="video/mp4" />
+                                        <source src="/img/about/kitty_news_264_low_res.mp4" type="video/mp4" />
                                     </video>
                                 }
                             </div>
@@ -87,10 +87,10 @@ export default function About() {
                             <div>
                                 {hasWindow &&
 
-                                    <video width='100%' height='100%' controls>
+                                    <video width='100%' height='100%' controls poster="/img/about/kitty_dance_poster.png">
                                         <source src="/img/about/kitty_dance.webm" type="video/webm" />
-                                        <source src="/img/about/kittys_dance_hevc_265.mp4" type="video/mp4" />
-                                        <source src="/img/about/kittys_dance_264_low_res.mp4" type="video/mp4" />
+                                        <source src="/img/about/kitty_dance_hevc_265.mp4" type="video/mp4" />
+                                        <source src="/img/about/kitty_dance_264_low_res.mp4" type="video/mp4" />
                                     </video>
                                 }
                             </div>
