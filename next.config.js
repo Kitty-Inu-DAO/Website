@@ -47,6 +47,7 @@ if (process.env.EXPORT !== 'true') {
   }
 }
 
+
 const KEYS_TO_OMIT = [
   'webpackDevMiddleware',
   'configOrigin',
@@ -75,6 +76,10 @@ module.exports = (_phase, { defaultConfig }) => {
       finalConfig[key] = wConfig[key]
     }
   })
+
+  finalConfig.images = {
+    unoptimized: true
+  }
 
   return finalConfig
 }

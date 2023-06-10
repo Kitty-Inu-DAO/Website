@@ -42,7 +42,7 @@ const IslandModel = ({ }) => {
         );
     }, [scene])
 
-    const model = useGLTF('/3d/island.gltf')
+    const model = useGLTF('/3D/island.gltf')
     const modelObj = model.scene || model
 
     const get_new_material = (idx, newName, fallBack) => {
