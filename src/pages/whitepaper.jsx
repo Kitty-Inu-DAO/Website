@@ -37,7 +37,7 @@ export default function Whitepaper() {
                     {!videoStarted ?
                         <>
                             <div className='flex items-center justify-center text-center'>
-                                <img className='video-embed w-full h-full' src="/img/whitepaper/whitepaper_poster.png" onClick={onClick} />
+                                <img className='video-embed w-full h-full' src="/img/whitepaper/whitepaper_poster.webp" onClick={onClick} />
                                 <FontAwesomeIcon icon={faPlay} size="3x" className="absolute left-1/2 transform -translate-x-1/2 cursor-pointer w-1/12" onClick={onClick} />
                             </div>
                         </> :
@@ -51,7 +51,7 @@ export default function Whitepaper() {
                                     className="object-cover shadow-md video-embed w-full aspect-w-16 aspect-h-9"
                                 />
                                 <img
-                                    src="/img/whitepaper/rick_rolled_got_em_with_text.png"
+                                    src="/img/whitepaper/rick_rolled_got_em_with_text.webp"
                                     className="absolute w-50 h-50 md:w-2/3 md:h-auto bottom-0 right-10 md:bottom-[-18%] md:left-[-15%]"
                                 />
                             </div>

@@ -2,7 +2,10 @@
 
 [![Release Version](https://img.shields.io/github/release/Kitty-Inu-DAO/Website.svg)](https://github.com/Kitty-Inu-DAO/Website/releases/latest)
 
-Website for the Kitty Inu DAO. 
+Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+
+# Kitty Inu DAO Website ![img](/public/image/kitty_logo.jpg')
 
 ## Installation
 
@@ -83,3 +86,40 @@ Please feel free to:
 
 ## Copyright and License
 see [COPYRIGHT](COPYRIGHT.md) and [LICENSE](LICENSE.md) files for copyright and license information.
+
+### Licensed Works
+
+All materials under `/public/3D/` are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. See [LICENSE](LICENSE.md) for more details. 
+
+
+## Contributing 
+
+- All contributions should be made as a pull request to the `dev` branch. Pull requests to `main` will be ignored. 
+
+- PRs must include a concise but descriptive title of the feature, bug, chore, etc. the PR is addressing. 
+
+- This repository follows conventional commit semantics. Please read here to ensure you understand the proper commit format: <https://www.conventionalcommits.org/en/v1.0.0/#summary>
+
+
+## Deployment
+
+- This repository uses Fleek for deployments of the `main` branch to IFPS. 
+- ENS is used as the domain.
+
+Browsers with ENS support can find the production deployment at:
+<kitty-inu-dao.eth/>
+
+All other browsers can use:
+
+<https://kitty-inu-dao.link/>
+
+Centralized way to access information in the ENS from DNS, managed by Cloudflare.
+
+### Preferred: 
+
+<https://kitty-inu-dao.limo/>
+
+Decentralized alternative to eth.link. Similar to eth.link, eth.limo is based on a wildcarded DNS record, *.eth.limo. However, instead of being managed by a single organization, it is powered by a DAO. 
+
+
+ 

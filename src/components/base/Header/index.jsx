@@ -45,7 +45,7 @@ export default function Header() {
             Home
           </HeaderInternalLink>
           <HeaderInternalLink href='/about'>About</HeaderInternalLink>
-          <HeaderExternalLink href='https://rapid-fire-1381.on.fleek.co/introduction-kitty-inu/'>Governance</HeaderExternalLink>
+          <HeaderExternalLink href='https://docs-kittyinudao.eth.limo/'>Governance</HeaderExternalLink>
           <HeaderInternalLink href='/whitepaper'>
             {/* Rick Roll! */}
             Whitepaper
@@ -59,7 +59,7 @@ export default function Header() {
         <div className="space-y-1 mt-2 px-4 pb-5 pt-2">
           <Link href="/about" className="text-white hover:bg-[#e43a95] hover:text-white block rounded-md px-3 py-2"
             aria-current="page">About</Link>
-          <Link href="https://rapid-fire-1381.on.fleek.co/introduction-kitty-inu/"
+          <Link href="https://docs-kittyinudao.eth.limo/"
             className="text-white hover:bg-[#e43a95] hover:text-white block rounded-md px-3 py-2">Governance</Link>
           <Link href="/whitepaper"
             className="text-white hover:bg-[#e43a95] hover:text-white block rounded-md px-3 py-2">Whitepaper</Link>
