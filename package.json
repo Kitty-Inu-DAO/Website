@@ -39,6 +39,7 @@
     "swiper": "^9.3.2",
     "three": "^0.153.0",
     "three-stdlib": "^2.15.0",
+    "yet-another-react-lightbox": "^3.10.2",
     "zustand": "^4.3.8"
   },
   "devDependencies": {
