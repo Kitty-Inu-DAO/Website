@@ -39,6 +39,11 @@
   text-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
+.video-embed {
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
 video {
   border-radius: 1rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -135,7 +140,7 @@ video {
 
   .white-blue-button {
     background-color: #fff;
-    font-size: 1.4em;
+    font-size: 1.5vw;
     text-align: center;
     letter-spacing: 0;
     border-radius: 103px;
