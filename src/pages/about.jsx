@@ -1,11 +1,10 @@
-import { useEffect, useState } from 'react'
-import { useInView } from 'react-intersection-observer'
-import { useAnimation } from 'framer-motion'
-import ReactPlayer from 'react-player'
+import { useEffect, useState } from 'react';
+import { useInView } from 'react-intersection-observer';
+import { useAnimation } from 'framer-motion';
 
 import Header from '@/components/base/Header/';
-import Hero from '@/components/base/Hero'
-import HomeFooter from '@/components/base/Footer/Home'
+import Hero from '@/components/base/Hero';
+import HomeFooter from '@/components/base/Footer/Home';
 
 export default function About() {
     const control = useAnimation()
@@ -35,13 +34,13 @@ export default function About() {
                     <div className='flex'>
                         <div className='flex-1 video-wrapper mt-4'>
                             <div>
-                                {hasWindow && <ReactPlayer
-                                    playing={false}
-                                    url='/img/about/kittys_back.webm'
-                                    width='100%'
-                                    height='100%'
-                                    controls={true}
-                                />}
+                                {hasWindow &&
+                                    <video width='100%' height='100%' controls>
+                                        <source src="/img/about/kittys_back.webm" type="video/webm" />
+                                        <source src="/img/about/kittys_back_hevc_265.mp4" type="video/mp4" />
+                                        <source src="/img/about/kittys_back_264_low_res.mp4" type="video/mp4" />
+                                    </video>
+                                }
                             </div>
                         </div>
                     </div>
@@ -62,13 +61,13 @@ export default function About() {
                         </div>
                         <div className='flex-1 mt-8 md:mt-0'>
                             <div>
-                                {hasWindow && <ReactPlayer
-                                    playing={false}
-                                    url='/img/about/kitty_news.webm'
-                                    width='100%'
-                                    height='100%'
-                                    controls={true}
-                                />}
+                                {hasWindow &&
+                                    <video width='100%' height='100%' controls>
+                                        <source src="/img/about/kitty_news.webm" type="video/webm" />
+                                        <source src="/img/about/kittys_news_hevc_265.mp4" type="video/mp4" />
+                                        <source src="/img/about/kittys_news_264_low_res.mp4" type="video/mp4" />
+                                    </video>
+                                }
                             </div>
                         </div>
                     </div>
@@ -86,13 +85,14 @@ export default function About() {
                     <div className='flex'>
                         <div className='flex-1 video-wrapper'>
                             <div>
-                                {hasWindow && <ReactPlayer
-                                    playing={false}
-                                    url='/img/about/kitty_dance.webm'
-                                    width='100%'
-                                    height='100%'
-                                    controls={true}
-                                />}
+                                {hasWindow &&
+
+                                    <video width='100%' height='100%' controls>
+                                        <source src="/img/about/kitty_dance.webm" type="video/webm" />
+                                        <source src="/img/about/kittys_dance_hevc_265.mp4" type="video/mp4" />
+                                        <source src="/img/about/kittys_dance_264_low_res.mp4" type="video/mp4" />
+                                    </video>
+                                }
                             </div>
                         </div>
                     </div>
