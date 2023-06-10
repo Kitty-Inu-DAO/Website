@@ -44,27 +44,27 @@ export default function Header() {
           <HeaderInternalLink href='/' className='px-3'>
             Home
           </HeaderInternalLink>
-          <HeaderInternalLink href='/#about'>About</HeaderInternalLink>
+          <HeaderInternalLink href='/about'>About</HeaderInternalLink>
           <HeaderExternalLink href='https://rapid-fire-1381.on.fleek.co/introduction-kitty-inu/'>Governance</HeaderExternalLink>
-          <HeaderInternalLink href='/#whitepaper'>
+          <HeaderInternalLink href='/whitepaper'>
             {/* Rick Roll! */}
             Whitepaper
           </HeaderInternalLink>
-          <HeaderInternalLink href='/#tokenomics'>Tokenomics</HeaderInternalLink>
-          <HeaderInternalLink href='/#buy'>Buy</HeaderInternalLink>
+          <HeaderInternalLink href='/tokenomics'>Tokenomics</HeaderInternalLink>
+          <HeaderInternalLink href='/buy'>Buy</HeaderInternalLink>
         </div>
       </div>
       <div className="hidden lg:hidden" id="mobile-menu" style={{ backdropFilter: 'blur(20px)', color: '#fff', backgroundColor: 'transparent', boxShadow: '0px 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23)', position: "absolute", left: 0, width: '100%' }}>
         <div className="space-y-1 mt-2 px-4 pb-5 pt-2">
-          <Link href="/#about" className="text-white hover:bg-[#e43a95] hover:text-white block rounded-md px-3 py-2"
+          <Link href="/about" className="text-white hover:bg-[#e43a95] hover:text-white block rounded-md px-3 py-2"
             aria-current="page">About</Link>
           <Link href="https://rapid-fire-1381.on.fleek.co/introduction-kitty-inu/"
             className="text-white hover:bg-[#e43a95] hover:text-white block rounded-md px-3 py-2">Governance</Link>
-          <Link href="/#whitepaper"
+          <Link href="/whitepaper"
             className="text-white hover:bg-[#e43a95] hover:text-white block rounded-md px-3 py-2">Whitepaper</Link>
-          <Link href="/#tokenomics"
+          <Link href="/tokenomics"
             className="text-white hover:bg-[#e43a95] hover:text-white block rounded-md px-3 py-2">Tokenomics</Link>
-          <Link href="/#buy"
+          <Link href="/buy"
             className="text-white hover:bg-[#e43a95] hover:text-white block rounded-md px-3 py-2">Buy</Link>
         </div>
       </div>

@@ -24,6 +24,14 @@ function App({ Component, pageProps = { title: 'index' } }) {
   const router = useRouter()
   const { progress } = useProgress()
 
+  useEffect(() => {
+    const { pathname } = router;
+    if (!pathname.includes('#')) {
+      const hashPath = `#${pathname}`;
+      window.location.hash = hashPath;
+    }
+  }, []);
+
   const isPortrait = useMediaQuery({ query: '(max-width: 1024px)' });
   const isColored = pageProps.title == 'Buy' || pageProps.title == 'Whitepaper' ? 'colored-background' : '';
 
