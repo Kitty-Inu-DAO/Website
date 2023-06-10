@@ -54,13 +54,13 @@ export default function About() {
                         Fueling our meme-powered rocket is the Kitty Inu token, the ERC20 certified digital tuna that governs our DAO. It's not just another fish in the sea; it's your boarding pass into the fur-midable world of DAO governance. Remember, in Kitty Inu DAO, your vote doesn't just count; it purrs!
                     </p>
                     <h2 className='mt-16 mb-5 text-shadow text-center'>cat-doge of the interwebz</h2>
-                    <div className='flex gap-10 mb-8 mt-8 items-center'>
+                    <div className='flex flex-col md:flex-row gap-10 mb-8 mt-8 items-center'>
                         <div className='flex-1 justify-center'>
-                            <p className='text-white'>
+                            <p className='text-white text-center md:text-left'>
                                 The star of our meme-verse is the one and only Kitty Inu, licensed by 9VRSE Inc. As the reigning cat-doge of the interwebz, Kitty Inu is the embodiment of all that's cool and claw-some in the DAO world. And no, Kitty Inu is not up for adoption; we're all just its humble servants in this decentralized playground.
                             </p>
                         </div>
-                        <div className='flex-1 mt-8'>
+                        <div className='flex-1 mt-8 md:mt-0'>
                             <div>
                                 {hasWindow && <ReactPlayer
                                     playing={false}
@@ -73,7 +73,7 @@ export default function About() {
                         </div>
                     </div>
                     <h2 className='mt-16 mb-5 text-shadow text-center'>Stacks on Deck</h2>
-                    <p className='text-white mt-8'>
+                    <p className='text-white mt-8 text-center md:text-left'>
                         But hey, we're not just here to play; we're here to PAW-er up the community. Our DAO's treasury is the beating heart that pumps liquid gold - or should we say milk? - into community initiatives. We're all about that diamond paws life, hodling together and propelling projects that give everyone in the DAO a reason to say "GM!"
                     </p>
                     <h2 className='mt-16 mb-5 text-shadow text-center'>Kitty next shib</h2>
