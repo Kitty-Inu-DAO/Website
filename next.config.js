@@ -81,13 +81,5 @@ module.exports = (_phase, { defaultConfig }) => {
     unoptimized: true
   }
 
-  finalConfig.trailingSlash = true;
-
-  finalConfig.exportPathMap = function () {
-    return {
-      '/': { page: '/' }
-    };
-  }
-
   return finalConfig
 }
