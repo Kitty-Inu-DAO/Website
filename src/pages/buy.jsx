@@ -45,10 +45,10 @@ export default function Buy() {
                         on centralized exchanges
                     </button>
 
-                    <p className='text-sm'>On May 20th, 2023 Kitty Inu migrated to an upgraded and optimized ERC20 contract!</p>
-                    <p className='text-sm mt-4'>New Contract Address:</p>
-                    <p className='text-lg mt-4'>0x61a35258107563f6b6f102ae25490901c8760b12</p>
-                    <p className='text-sm mt-4'>V2 tokens were airdropped 1:1 to wallets holding the V1 token.</p>
+                    <p className='text-sm text-center'>On May 20th, 2023 Kitty Inu migrated to an upgraded and optimized ERC20 contract!</p>
+                    <p className='text-sm mt-4 text-center'>New Contract Address:</p>
+                    <p className='text-lg mt-4 text-center'>0x61a35258107563f6b6f102ae25490901c8760b12</p>
+                    <p className='text-sm mt-4 text-center'>V2 tokens were airdropped 1:1 to wallets holding the V1 token.</p>
                 </section>
             </main>
             <HomeFooter />
