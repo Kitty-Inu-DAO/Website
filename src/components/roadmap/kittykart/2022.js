@@ -139,7 +139,7 @@ export const kittyKart2022 = [
         status: 'delivered'
     },
     {
-        title: 'NFT.NYC 2022 Best Play to Earn Mechanics',
+        title: 'NFT.NYC 2022 Best Play to Earn Mechanics finalist',
         images: [
             {
                 url: '/img/roadmap/kittykart/nft-nyc-2022/nft-nyc-2022-1.jpg',
