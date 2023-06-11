@@ -56,6 +56,14 @@ export const kittyInuToken2022 = [
     },
     {
         title: "Kitty Inu's Game Nights",
+        images: [
+            {
+                url: '/img/roadmap/kitty-inu-token/game-on/game-on-1.jpg',
+                width: 1920,
+                height: 1080,
+                alt: "Kitty Inu's Game On",
+            },
+        ],
         description: 'Join the Kitty Inu Discord community to play weekly quizzes and fun games, with many prizes to win.',
         status: 'delivered'
     },

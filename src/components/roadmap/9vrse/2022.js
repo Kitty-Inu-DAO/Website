@@ -34,19 +34,19 @@ export const nineVerse2022 = [
         title: "Tableland's \"What's ahead for web3 gaming in 2023\" panel discussion",
         images: [
             {
-                url: '/img/roadmap/9vrse/tableland/tableland-1.jpg',
-                width: 1920,
-                height: 1080,
-                alt: 'Tableland panel discussion'
-            },
-            {
                 url: '/img/roadmap/9vrse/tableland/tableland-2.jpg',
                 width: 1494,
                 height: 2048,
                 alt: 'Tableland panel discussion'
             },
+            {
+                url: '/img/roadmap/9vrse/tableland/tableland-1.jpg',
+                width: 1920,
+                height: 1080,
+                alt: 'Tableland panel discussion'
+            },
+
         ],
-        description: 'A 9,999 3D-rigged Kitty Inu avatar collection.',
         links: [
             {
                 url: 'https://www.youtube.com/watch?v=Lj_USKtcls0',

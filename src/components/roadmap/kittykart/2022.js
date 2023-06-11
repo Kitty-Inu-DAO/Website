@@ -91,8 +91,51 @@ export const kittyKart2022 = [
         status: 'delivered'
     },
     {
-        title: 'KittyKart weekly competitions',
+        title: 'KittyKart weekly tournaments',
         description: 'Every week, come play KittyKart with the Kitty Inu community in the 9VRSE Discord server to have fun and win many prizes.',
+        status: 'delivered'
+    },
+    {
+        title: 'KittyKart macOS support',
+        description: "KittyKart's demo can now be played on Apple computers.",
+        status: 'delivered'
+    },
+    {
+        title: 'Gen Zero Guild partnership',
+        images: [
+            {
+                url: '/img/roadmap/kittykart/genzero/kittykart-genzero-2.png',
+                width: 828,
+                height: 1209,
+                alt: 'KittyKart x Gen Zero Guild'
+            },
+            {
+                url: '/img/roadmap/kittykart/genzero/kittykart-genzero-3.jpg',
+                width: 1080,
+                height: 1080,
+                alt: 'KittyKart x Gen Zero Guild'
+            },
+            {
+                url: '/img/roadmap/kittykart/genzero/kittykart-genzero-1.jpg',
+                width: 4000,
+                height: 3000,
+                alt: 'KittyKart x Gen Zero Guild'
+            }
+        ],
+        description: "Multiple tournaments co-hosted with Gen Zero Guild, with $USDC prize pools.",
+        status: 'delivered'
+    },
+    {
+        title: 'Juice Team partnership',
+        images: [
+            {
+                url: '/img/roadmap/kittykart/juice/kittykart-juice-1.jpg',
+                width: 1000,
+                height: 1000,
+                alt: 'KittyKart x Juice Team'
+            }
+        ],
+        description: "Multiple tournaments co-hosted with Juice Team, with $USDC prize pools.",
         status: 'delivered'
     },
     {
@@ -132,6 +175,55 @@ export const kittyKart2022 = [
         status: 'delivered'
     },
     {
+        title: 'Elixir partnership',
+        images: [
+            {
+                url: '/img/roadmap/kittykart/elixir/elixir-kittykart-1.jpg',
+                width: 1600,
+                height: 900,
+                alt: 'KittyKart x Elixir'
+            },
+            {
+                url: '/img/roadmap/kittykart/elixir/elixir-kittykart-2.jpg',
+                width: 1920,
+                height: 963,
+                alt: 'KittyKart x Elixir'
+            }
+        ],
+        description: "KittyKart is listed on Elixir, providing to players an alternative secured way to download the" +
+            " game. Multiple tournaments with renowned Elixir's streaming partners." +
+            " New contents made and distributed by Elixir's top-tier content creators.",
+        links: [
+            {
+                url: 'https://launcher.elixir.app/games/kitty-kart',
+                title: 'KittyKart on Elixir'
+            },
+            {
+                url: 'https://blog.elixir.app/kittykart-elixir-partnership/',
+                title: 'Announcement'
+            },
+        ],
+        status: 'delivered'
+    },
+    {
+        title: 'Second race track first sneak peek',
+        images: [
+            {
+                url: '/img/roadmap/kittykart/second-track-sneak-peek/second-track-sneak-peek-1.png',
+                width: 1400,
+                height: 1495,
+                alt: 'Second track sneek peak'
+            },
+            {
+                url: '/img/roadmap/kittykart/second-track-sneak-peek/second-track-sneak-peek-2.png',
+                width: 1400,
+                height: 869,
+                alt: 'Second track sneek peak'
+            }
+        ],
+        status: 'delivered'
+    },
+    {
         title: 'Genesis Kart free mint',
         images: [
             {
@@ -157,27 +249,22 @@ export const kittyKart2022 = [
         status: 'delivered'
     },
     {
-        title: 'Ithaca College KittyKart tournament',
+        title: 'Venly partnership',
         images: [
             {
-                url: '/img/roadmap/kittykart/ithaca/ithaca-1.jpg',
-                width: 1428,
-                height: 2048,
-                alt: 'KittyKart x Ithaca College'
+                url: '/img/roadmap/kittykart/venly/kittykart-venly-1.jpg',
+                width: 1800,
+                height: 2250,
+                alt: 'KittyKart x Venly'
             },
             {
-                url: '/img/roadmap/kittykart/ithaca/ithaca-2.jpg',
-                width: 1600,
-                height: 1200,
-                alt: 'KittyKart x Ithaca College'
-            },
-            {
-                url: '/img/roadmap/kittykart/ithaca/ithaca-3.jpg',
-                width: 1920,
-                height: 1080,
-                alt: 'KittyKart x Ithaca College'
+                url: '/img/roadmap/kittykart/venly/kittykart-venly-2.jpg',
+                width: 3840,
+                height: 2160,
+                alt: 'KittyKart x Venly'
             }
         ],
+        description: 'KittyKart tournaments with prizes hosted by Venly.',
         status: 'delivered'
-    },
+    }
 ];
