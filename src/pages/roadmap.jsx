@@ -78,6 +78,8 @@ export default function Roadmap() {
                 ))}
                 </div>
 
+                <p className="italic mt-8 text-base text-center">This roadmap gathers publicly available information. It doesn't engage any of the Kitty Inu ecosystem builders.</p>
+
                 {roadmap.items.map(category => (
                     <>
                         <h2 className='mt-12 mb-4 bg-[#e43a95] px-4 py-0.5'>{category.title}</h2>
