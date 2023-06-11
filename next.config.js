@@ -81,5 +81,8 @@ module.exports = (_phase, { defaultConfig }) => {
     unoptimized: true
   }
 
+  finalConfig.trailingSlash = true;
+  finalConfig.reactStrictMode = true;
+
   return finalConfig
 }
