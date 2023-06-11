@@ -24,7 +24,7 @@ export const kittyKart2022 = [
         description: '300 people signed-up to test the first technical multiplayer preview release of KittyKart.',
         status: 'delivered'
     },
-    {
+    /*{
         title: 'MegaWeapon partnership',
         images: [
             {
@@ -37,7 +37,7 @@ export const kittyKart2022 = [
         description: "MegaWeapon's caveman will be a playable character in KittyKart, Kitty Inu will be featured in"
             + " MegaWeapon.",
         status: 'delivered'
-    },
+    },*/
     /*{
         title: 'Cyber Cosmos World partnership',
         images: [
