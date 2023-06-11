@@ -30,11 +30,11 @@ export const nineVerse2023 = [
             },
             {
                 url: 'https://realagency.xyz',
-                title: "Real Agency website",
+                title: "Real Agency's website",
             },
             {
                 url: 'https://twitter.com/R3alAg3nts',
-                title: "Real Agency Twitter",
+                title: "Real Agency's Twitter",
             },
         ],
         status: 'delivered'
