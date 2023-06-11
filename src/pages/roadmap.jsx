@@ -49,7 +49,14 @@ export default function Roadmap() {
     return (
         <>
             <Header />
-            <main className='m-auto w-11/12 lg:w-10/12 xl:w-8/12 bg-sky-800/30 px-10 pt-4 pb-16 rounded-b-lg'
+            <Image
+                src="/img/roadmap/roadmap.webp"
+                width="589"
+                height="500"
+                alt='Kitty saying "Roadmap"'
+                className="hidden xl:block fixed w-[15vw] h-auto right-4 bottom-8"
+            />
+            <main className='m-auto w-11/12 lg:w-10/12 xl:w-8/12 bg-sky-800/30 px-10 pt-4 pb-16'
                   style={{ backdropFilter: 'blur(20px)' }}>
 
                 <Hero title='Ecosystem roadmap' description='' />
@@ -62,7 +69,7 @@ export default function Roadmap() {
 
                         {category.items.map(year => (
                             <>
-                                <h3 className='text-2xl mb-1'>{year.year}</h3>
+                                <h3 className='text-3xl mb-1 pt-5'>{year.year}</h3>
                                 <ol className="relative border-l border-[#e43a95]">
                                     {year.items.map(item => (
                                         <li className="mb-5 ml-4 pt-4" key={key++}>
@@ -77,6 +84,15 @@ export default function Roadmap() {
                                                     && <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="inline w-6 h-6 ml-2 mb-1 fill-green-500">
                                                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                                 </svg>}
+                                                {item.status && item.status === 'finalized' && <span
+                                                    className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-green-600 bg-green-100 relative -top-0.5 ml-4">
+                                                    Getting finalized</span>}
+                                                {item.status && item.status === 'development' && <span
+                                                    className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 relative -top-0.5 ml-4">
+                                                    In development</span>}
+                                                {item.status && item.status === 'wip' && <span
+                                                    className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 relative -top-0.5 ml-4">
+                                                    In progress</span>}
                                             </h4>
                                             {item.images
                                                 && item.images.length > 0
@@ -109,10 +125,6 @@ export default function Roadmap() {
                     roadmap doesn't engage any of the Kitty Inu ecosystem builders. All unreleased projects contained
                     in this roadmap are subjected to change.
                 </p>
-
-                <div className="text-center mt-16">
-                    <Link href='/whitepaper' className="text-xl bg-[#e43a95] hover:text-[#e43a95] hover:bg-white text-white font-bold py-3 px-20 rounded">Whitepaper</Link>
-                </div>
 
             </main>
             <HomeFooter />

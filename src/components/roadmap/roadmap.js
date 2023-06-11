@@ -3,7 +3,7 @@ import {kittyKart} from "./kittykart";
 import {nineVrse} from "./9vrse";
 
 export const roadmap = {
-    updatedOn: '2023-06-01',
+    updatedOn: '2023-06-11',
     items: [
         kittyInuToken,
         kittyKart,
