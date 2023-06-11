@@ -63,13 +63,29 @@ export default function Roadmap() {
 
                 <p className="text-base">Latest update: <strong>{updatedOn.toLocaleDateString()}</strong></p>
 
+                <h2 className="md:text-center mt-8">Table of contents</h2>
+                <div className="md:flex">
+                {roadmap.items.map(category => (
+                    <div className="md:flex-auto" key="{'toc_' + category.id}">
+                        <p className="font-bold text-xl mt-2 mb-3">{category.title}</p>
+                        <p>
+                            {category.items.map(year => (
+                                <a key={'toc_' + category.id + '_' + year.id}
+                                    className="inline-block text-white bg-blue-600 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-lg whitespace-nowrap px-4 py-2 mr-2 mb-2"
+                                    href={'#' + category.id + '-' + year.id}>{year.year}</a>
+                            ))}
+                        </p>
+                    </div>
+                ))}
+                </div>
+
                 {roadmap.items.map(category => (
                     <>
-                        <h2 className='mt-12 mb-5 bg-[#e43a95] px-4 py-0.5'>{category.title}</h2>
+                        <h2 className='mt-12 mb-4 bg-[#e43a95] px-4 py-0.5'>{category.title}</h2>
 
                         {category.items.map(year => (
                             <>
-                                <h3 className='text-3xl mb-1 pt-5'>{year.year}</h3>
+                                <h3 className='text-3xl mb-1 pt-5' id={category.id + '-' + year.id}>{year.year}</h3>
                                 <ol className="relative border-l border-[#e43a95]">
                                     {year.items.map(item => (
                                         <li className="mb-5 ml-4 pt-4" key={key++}>
