@@ -269,7 +269,7 @@ video {
     }
   }
 
-  @media screen and (min-width: 1480px) {
+  @media screen and (min-width: 1600px) {
     .kitty-inu-dao {
       font-size: 3em;
     }
