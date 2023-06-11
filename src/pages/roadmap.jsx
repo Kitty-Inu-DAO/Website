@@ -58,7 +58,7 @@ export default function Roadmap() {
 
                 {roadmap.items.map(category => (
                     <>
-                        <h2 className='mt-12 mb-5'>{category.title}</h2>
+                        <h2 className='mt-12 mb-5 bg-[#e43a95] px-4 py-0.5'>{category.title}</h2>
 
                         {category.items.map(year => (
                             <>
