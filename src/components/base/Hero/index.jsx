@@ -6,7 +6,7 @@ const variants = {
     opacity: 0,
   },
   visible: {
-    scale: 0.9,
+    scale: 1,
     opacity: 1,
     transition: {
       delay: 0.8,
