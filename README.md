@@ -119,7 +119,7 @@ Centralized way to access information in the ENS from DNS, managed by Cloudflare
 
 #### Preferred: Wildcarded DNS Record
 
-Production deployment at: <https://kitty-inu-dao.limo/>
+Production deployment at: <https://kitty-inu-dao.eth.limo/>
 
 Decentralized alternative to eth.link. Similar to eth.link, eth.limo is based on a wildcarded DNS record, *.eth.limo. However, instead of being managed by a single organization, it is powered by a DAO. 
 
