@@ -113,7 +113,7 @@ Production deployment at: <https://kitty-inu-dao.eth/>
 
 #### Cloudflare with .link
 
-Production deployment at: <https://kitty-inu-dao.link/>
+Production deployment at: <https://kitty-inu-dao.eth.link/>
 
 Centralized way to access information in the ENS from DNS, managed by Cloudflare.
 
