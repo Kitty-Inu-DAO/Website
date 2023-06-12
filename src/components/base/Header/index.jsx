@@ -1,19 +1,32 @@
 import { HeaderExternalLink, HeaderInternalLink } from '@/components/base/Button'
 import Link from "next/link";
 
-function toggle() {
+function hide() {
     const menu = document.getElementById('mobile-menu');
+    const overlay = document.getElementById('mobile-menu-overlay');
+    menu.classList.add('hidden');
+    overlay.classList.add('hidden');
+}
+
+function toggle(e) {
+    e.stopPropagation();
+    const menu = document.getElementById('mobile-menu');
+    const overlay = document.getElementById('mobile-menu-overlay');
     if (menu.classList.contains('hidden')) {
         menu.classList.remove('hidden');
+        overlay.classList.remove('hidden');
         return;
     }
     menu.classList.add('hidden');
+    overlay.classList.add('hidden');
 }
 
 export default function Header() {
     return (
-        <header className='sticky top-0 z-10 lg:relative w-full px-6 py-4 lg:px-16 lg:py-6 xl:px-20 xl:py-8 bar-styling' style={{ backdropFilter: 'blur(20px)', color: '#fff', backgroundColor: 'transparent', boxShadow: '0px 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23)' }}>
-            <div className='flex items-center'>
+        <>
+        <div className="hidden absolute w-full h-[100vh] top-0 z-10" id="mobile-menu-overlay" onClick={hide}></div>
+        <header className='sticky top-0 z-10 lg:relative w-full bar-styling' style={{ backdropFilter: 'blur(20px)', color: '#fff', backgroundColor: 'transparent', boxShadow: '0px 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23)' }}>
+            <div className='flex items-center px-6 lg:px-16 xl:px-20 py-4 lg:py-6 xl:py-8' onClick={hide}>
                 <div className="inset-y-0 left-0 flex justify-between items-center mr-4 xl:hidden">
                     <button onClick={toggle} type="button"
                             className="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-[#e43a95] hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
@@ -56,7 +69,7 @@ export default function Header() {
                 </div>
             </div>
             {/* margin top corresponds to padding on the nav container */}
-            <div className="hidden mt-4 lg:mt-6 xl:mt-8" id="mobile-menu" style={{ backdropFilter: 'blur(20px)', backgroundColor: 'rgba(0, 0, 0, .6)', boxShadow: '0px 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23)', position: "absolute", left: 0, width: '100%' }}>
+            <div className="hidden" id="mobile-menu" style={{ backdropFilter: 'blur(20px)', backgroundColor: 'rgba(0, 0, 0, .6)', boxShadow: '0px 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23)', position: "absolute", left: 0, width: '100%' }}>
                 <div className="space-y-1 mt-2 px-4 pb-5 pt-2">
                     <Link href="/about" className="text-white hover:bg-[#e43a95] hover:text-white block rounded-md px-3 py-2"
                           aria-current="page">About</Link>
@@ -73,5 +86,6 @@ export default function Header() {
                 </div>
             </div>
         </header>
+        </>
     )
 }
