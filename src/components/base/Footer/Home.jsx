@@ -3,7 +3,7 @@ import { InternalLink, ExternalLink } from '@/components/base/Button'
 export default function HomeFooter() {
   return (
     <footer id="footer" className='w-full text-center mb-0 text-white p-4 px-10 lg:px-16 xl:px-20 bar-styling' style={{ backdropFilter: 'blur(20px)', color: '#fff', backgroundColor: 'transparent', boxShadow: '0px 10px 20px rgba(0,0,0,0.4), 0px 6px 6px rgba(0,0,0,0.4)' }}>
-      <div className='flex justify-between items-center my-4'>
+      <div className='flex justify-between items-center my-1 md:my-4'>
         <div className='w-full text-left'>
           {/* <h2>Join the Krew! 👇</h2> */}
           {/* <h4>Join discord, telegram, or follow us on twitter for updates, announcements, and more</h4> */}
