@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Script from 'next/script'
 
 const titleDefault = 'Kitty Inu DAO'
-const url = 'https://kittyinudao.eth.limo'
+const url = 'https://kittyinudao.eth.limo/'
 const description =
   'A decentralized ethereum community'
 
