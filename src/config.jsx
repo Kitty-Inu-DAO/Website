@@ -29,7 +29,7 @@ const Header = ({ title = titleDefault }) => {
         <meta name='og:title' content={title} />
         <meta name='og:type' content='site' />
         <meta name='og:url' content={url} />
-        <meta name='og:image' content={'/icons/android-chrome-512x512.png'} />
+        <meta name='og:image' content='/img/kitty_logo.jpg' />
         <meta name='og:site_name' content={title} />
         <meta name='og:description' content={description} />
 
