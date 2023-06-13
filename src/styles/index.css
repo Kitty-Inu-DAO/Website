@@ -61,8 +61,12 @@ video {
     height: 100%;
     margin: 0;
     padding: 0;
+  }
+
+  body {
     background: transparent url('/img/scene/Skybox_FR.webp') 0% 0% no-repeat padding-box;
     background-size: cover;
+    background-repeat: repeat-y;
     color: #fff;
     font-family: 'Lovelo';
     font-size: 16px;
@@ -94,7 +98,7 @@ video {
     h1 { font-size: 3em }
   }
 
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 700px) {
     h1 { font-size: 4em }
   }
 
@@ -103,8 +107,12 @@ video {
   }
 
   h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     letter-spacing: 0.15em;
+  }
+
+  @media screen and (min-width: 600px) {
+    h2 { font-size: 2em }
   }
 
   h3 {
