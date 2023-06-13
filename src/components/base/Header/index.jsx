@@ -26,7 +26,7 @@ export default function Header() {
         <>
         <div className="hidden absolute w-full h-[100vh] top-0 z-10" id="mobile-menu-overlay" onClick={hide}></div>
         <header className='sticky top-0 z-10 lg:relative w-full bar-styling' style={{ backdropFilter: 'blur(20px)', color: '#fff', backgroundColor: 'transparent', boxShadow: '0px 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23)' }}>
-            <div className='flex items-center px-3 md:px-6 lg:px-16 xl:px-20 py-4 lg:py-6 xl:py-8' onClick={hide}>
+            <div className='flex items-center px-3 md:px-6 lg:px-16 xl:px-20 py-2 md:py-4 lg:py-6 xl:py-8' onClick={hide}>
                 <div className="inset-y-0 left-0 flex justify-between items-center mr-4 xl:hidden">
                     <button onClick={toggle} type="button"
                             className="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-[#e43a95] hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
