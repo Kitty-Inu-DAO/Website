@@ -7,7 +7,7 @@ const Dom = ({ classes, children }) => {
     setState({ dom: ref })
   }, [])
 
-  const className = classes + " absolute top-0 left-0 z-10 w-screen h-screen overflow-x-hidden dom"
+  const className = classes + " absolute top-0 left-0 z-10 w-screen h-full overflow-x-hidden dom"
   if (children) {
     console.log(children.props)
   }
