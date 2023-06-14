@@ -11,9 +11,7 @@ const Dom = ({ absolute, classes, children }) => {
   if (absolute) {
     className += ' absolute top-0 left-0 z-10 w-screen h-full overflow-x-hidden dom';
   }
-  if (children) {
-    console.log(children.props)
-  }
+
   return (
     <div className={className} ref={ref}>
       {children}
