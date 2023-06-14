@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Script from 'next/script'
 
 const titleDefault = 'Kitty Inu DAO'
-const url = 'https://kittyinudao.eth.link/'
+const url = 'https://kitty-inu-dao.eth.limo/'
 const description =
   'A decentralized ethereum community'
 
@@ -29,7 +29,7 @@ const Header = ({ title = titleDefault }) => {
         <meta name='og:title' content={title} />
         <meta name='og:type' content='site' />
         <meta name='og:url' content={url} />
-        <meta name='og:image' content={'/icons/android-chrome-512x512.png'} />
+        <meta name='og:image' content='/img/kitty_logo.jpg' />
         <meta name='og:site_name' content={title} />
         <meta name='og:description' content={description} />
 
@@ -50,7 +50,7 @@ const Header = ({ title = titleDefault }) => {
         />
         <meta name='theme-color' content='#000' />
 
-        {/* 
+        {/*
       Twitter Summary card
         documentation: https://dev.twitter.com/cards/getting-started
         Be sure validate your Twitter card markup on the documentation site. */}
