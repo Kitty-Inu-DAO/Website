@@ -58,6 +58,13 @@ export default function Tokenomics() {
               <p className='mt-4 text-center md:text-left'>
                 But who holds the key to the Kitty Castle? It's all you frens! We're all about decentralization, and a significant amount of the Kitty Inu tokens, a cool 38% or 278,074,711,162 billion, are held by you, the Kitty Inu DAO community. You aren't just token hodlers; you're steering this ship.
               </p>
+              <p className="text-center mt-2">
+                <Link className='tokenomics-buttons2 inline-block p-4 md:px-10 mt-4 text-sm transition-all duration-200 ease-in shadow-md hover:shadow-sm hover:translate-y-1'
+                      href="https://docs-kittyinudao.eth.limo/dao_architecture/treasury"
+                      target="_blank">
+                  Learn more about DAO Treasury usage
+                </Link>
+              </p>
             </div>
           </div>
 
@@ -70,16 +77,6 @@ export default function Tokenomics() {
               <p className='mt-4 text-center md:text-left'>
                 62% went to the Kitty Litter - better known as "Public Sale". Here, everyone had an equal chance to grab their share of $kitty tokens. No kitty was left behind!
               </p>
-              <div className='flex items-center justify-center md:justify-start'>
-                <div className='flex w-3/4 md:w-1/2 items-center justify-center md:justify-start'>
-                  <button
-                    className='tokenomics-buttons2 p-4 pr-4 pl-4 md:text-xs mt-4 flex items-center justify-center cursor-pointer transform transition-all duration-200 ease-in shadow-md hover:shadow-sm hover:translate-y-1'
-                    onClick={() => window.open('https://docs-kittyinudao.eth.limo/dao_architecture/treasury', '_blank')}
-                  >
-                    Learn more about DAO Treasury usage
-                  </button>
-                </div>
-              </div>
             </div>
           </div>
 
