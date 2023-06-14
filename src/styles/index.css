@@ -91,19 +91,27 @@ video {
   }
 
   @media screen and (min-width: 500px) {
-    h1 { font-size: 2.5em }
+    h1 {
+      font-size: 2.5em
+    }
   }
 
   @media screen and (min-width: 600px) {
-    h1 { font-size: 3em }
+    h1 {
+      font-size: 3em
+    }
   }
 
   @media screen and (min-width: 700px) {
-    h1 { font-size: 4em }
+    h1 {
+      font-size: 4em
+    }
   }
 
   @media screen and (min-width: 800px) {
-    h1 { font-size: 5em }
+    h1 {
+      font-size: 5em
+    }
   }
 
   h2 {
@@ -112,7 +120,9 @@ video {
   }
 
   @media screen and (min-width: 600px) {
-    h2 { font-size: 2em }
+    h2 {
+      font-size: 2em
+    }
   }
 
   h3 {
@@ -148,6 +158,16 @@ video {
     color: #fff;
     text-transform: uppercase;
     padding: 1em 2.5em;
+  }
+
+  .tokenomics-buttons2 {
+    background-color: #ffffff1f;
+    font-size: .5rem;
+    text-align: center;
+    letter-spacing: 0;
+    border-radius: 103px;
+    color: #fff;
+    text-transform: uppercase;
   }
 
   .white-blue-button {
