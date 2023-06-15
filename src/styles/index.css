@@ -35,6 +35,16 @@
   left: 0;
 }
 
+@media screen and (max-width: 600px) {
+  .social-buttons {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    aspect-ratio: 1/1;
+  }
+}
+
 .text-shadow {
   text-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
