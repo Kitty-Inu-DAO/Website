@@ -6,6 +6,7 @@ import Header from '@/components/base/Header'
 import Hero from '@/components/base/Hero'
 import HomeFooter from '@/components/base/Footer/Home'
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default function Tokenomics() {
@@ -46,7 +47,7 @@ export default function Tokenomics() {
             </p>
           </div>
 
-          <h2 className='mt-16 text-center text-shadow'>Token Allocation</h2>
+          <h2 className='mt-16 text-center text-shadow'>Initial Token Allocation</h2>
 
           <div className="md:flex mt-16 mb-5 items-center justify-center">
             <div className="mb-8 md:mb-0 md:max-w-[320px] md:flex-1">
@@ -56,6 +57,13 @@ export default function Tokenomics() {
               <h3 className='text-2xl text-shadow text-center md:text-left'>The DAO's Meow-llionaire's Club: 38%</h3>
               <p className='mt-4 text-center md:text-left'>
                 But who holds the key to the Kitty Castle? It's all you frens! We're all about decentralization, and a significant amount of the Kitty Inu tokens, a cool 38% or 278,074,711,162 billion, are held by you, the Kitty Inu DAO community. You aren't just token hodlers; you're steering this ship.
+              </p>
+              <p className="text-center mt-2">
+                <Link className='tokenomics-buttons2 inline-block p-4 md:px-10 mt-4 text-sm transition-all duration-200 ease-in shadow-md hover:shadow-sm hover:translate-y-1'
+                      href="https://docs-kittyinudao.eth.limo/dao_architecture/treasury"
+                      target="_blank">
+                  Learn more about DAO Treasury usage
+                </Link>
               </p>
             </div>
           </div>
@@ -71,6 +79,7 @@ export default function Tokenomics() {
               </p>
             </div>
           </div>
+
         </section>
       </main >
       <HomeFooter />
