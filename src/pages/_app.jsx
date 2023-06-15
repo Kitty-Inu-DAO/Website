@@ -40,7 +40,7 @@ function App({ Component, pageProps = { title: 'index' } }) {
     <>
       <Header title={title} />
       <Transition>
-        <Dom classes={isColored}>
+        <Dom classes={isColored} absolute={pageProps.title === 'Home'}>
           {Component && <Component {...pageProps} />}
         </Dom>
       </Transition>
