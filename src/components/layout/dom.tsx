@@ -9,9 +9,19 @@ const Dom = ({ absolute, classes, children }) => {
 
   const [showButton, setShowButton] = useState(false);
 
-  useEffect(() => {
+  const scrollOffsetFromBottom = () => {
+    const htmlElement: HTMLElement = document.documentElement;
+    const bodyElement: HTMLElement = document.body;
+
+    return Math.max(
+        htmlElement.clientHeight, htmlElement.scrollHeight, htmlElement.offsetHeight,
+        bodyElement.scrollHeight, bodyElement.offsetHeight
+      ) - (window.scrollY + window.innerHeight);
+  }
+
+  useEffect((): void => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 300) {
+      if (window.scrollY > 300 && scrollOffsetFromBottom() > 100) {
         setShowButton(true);
       } else {
         setShowButton(false);
@@ -19,7 +29,7 @@ const Dom = ({ absolute, classes, children }) => {
     });
   }, []);
 
-  const scrollToTop = () => {
+  const scrollToTop = (): void => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
@@ -37,7 +47,8 @@ const Dom = ({ absolute, classes, children }) => {
         {children}
       </div>
       {showButton && (
-        <button onClick={scrollToTop} className="fixed right-4 bottom-4 bg-white/25 hover:bg-[#e43a95] text-white/75 hover:text-white text-2xl py-3 px-4 rounded-xl">
+        <button onClick={scrollToTop}
+                className="fixed right-4 bottom-4 bg-white/25 hover:bg-[#e43a95] text-white/75 hover:text-white text-2xl py-3 px-4 rounded-xl">
           &#9650;
         </button>
       )}
