@@ -21,7 +21,7 @@ export default function Roadmap() {
         images.map(image => {
             const url = image.url;
             const thumb = url.replace(/\.[a-z]+$/i, '.thumb.webp');
-            html.push((<a className="mr-4" href="#" onClick={(e) => click(e)}>
+            html.push((<a className="mr-4" href={url} onClick={(e) => click(e)}>
                 <Image data-index={imageIndex++}
                        className="inline-block shadow-md shadow-black mb-3"
                        src={thumb} width={width(image)} height="180" alt={image.alt} />

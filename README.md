@@ -1,6 +1,13 @@
 # 
 
-[![Release Version](https://img.shields.io/github/release/Kitty-Inu-DAO/Website.svg)](https://github.com/Kitty-Inu-DAO/Website/releases/latest) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![Release Version](https://img.shields.io/github/release/Kitty-Inu-DAO/Website.svg?style=plastic)](https://github.com/Kitty-Inu-DAO/Website/releases/latest) ![release-date](https://img.shields.io/github/release-date/kitty-inu-dao/website?style=plastic) [![CI Tests](https://github.com/Kitty-Inu-DAO/Website/actions/workflows/main.yml/badge.svg)](https://github.com/Kitty-Inu-DAO/Website/actions/workflows/main.yml) ![commit-activity](https://img.shields.io/github/commit-activity/t/kitty-inu-dao/website?style=plastic) ![pr-activity](https://img.shields.io/github/issues-pr-closed/kitty-inu-dao/website?style=plastic&color=blueviolet) ![closed-issues](https://img.shields.io/github/issues-closed/kitty-inu-dao/website?style=plastic&color=brightgreen) ![contributors](https://img.shields.io/github/contributors-anon/kitty-inu-dao/website?style=plastic)
+
+
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+![Next-JS](https://camo.githubusercontent.com/8552f38715af0ea9f364801b055f7a2448812b49075860983d53a81414349623/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d4e6578742e6a7326636f6c6f723d303030303030266c6f676f3d4e6578742e6a73266c6f676f436f6c6f723d464646464646266c6162656c3d) ![IPFS](https://camo.githubusercontent.com/7c4b40ea2a014f254ff9ce7347f32ba3493f7b9bf35a4655e0b22a9662bcb152/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d4950465326636f6c6f723d323232323232266c6f676f3d49504653266c6f676f436f6c6f723d363543324342266c6162656c3d) ![ENS](https://img.shields.io/badge/ENS-20232A?style=for-the-badge&logo=ethereum&logoColor=61DAFB)
+
+[![twitter](https://img.shields.io/twitter/follow/kittyinutoken?style=social)](https://twitter.com/KittyInuToken)
 
 
 ![Kitty Inu DAO](./public/img/kitty_logo.jpg)
@@ -113,13 +120,13 @@ Production deployment at: <https://kitty-inu-dao.eth/>
 
 #### Cloudflare with .link
 
-Production deployment at: <https://kitty-inu-dao.link/>
+Production deployment at: <https://kitty-inu-dao.eth.link/>
 
 Centralized way to access information in the ENS from DNS, managed by Cloudflare.
 
 #### Preferred: Wildcarded DNS Record
 
-Production deployment at: <https://kitty-inu-dao.limo/>
+Production deployment at: <https://kitty-inu-dao.eth.limo/>
 
 Decentralized alternative to eth.link. Similar to eth.link, eth.limo is based on a wildcarded DNS record, *.eth.limo. However, instead of being managed by a single organization, it is powered by a DAO. 
 
