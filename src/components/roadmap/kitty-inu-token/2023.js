@@ -132,5 +132,35 @@ export const kittyInuToken2023 = [
             }
         ],
         status: 'delivered'
-    }
+    },
+  {
+    title: "Jonah Blake and Hantao appointed as media consultants and content creators",
+    images: [
+      {
+        url: '/img/roadmap/kitty-inu-token/jonah/jonah-1.png',
+        width: 597,
+        height: 686,
+        alt: 'Jonah Blake'
+      }
+    ],
+    description: "Jonah Blake and Hantao have been appointed by the DAO to host 24 X Spaces, 72 videos"
+      + " and 12 creator events, to bolster the Kitty Inu brand's existing appeal through gaming and media"
+      + ", to design a funnel that converts potential members to active DAO members and"
+      + " increase user stickiness within the DAO.",
+    links: [
+      {
+        url: 'https://snapshot.org/#/kittyinudao.eth/proposal/0x58427f2159ed4d2d682e5f920862ef60581b94ff8ef51336782f44fb0e4dee53',
+        title: "DAO's Jonah and Hantao's media package vote",
+      },
+      {
+        url: 'https://twitter.com/RealJonahBlake',
+        title: "Jonah Blake's X account",
+      },
+      {
+        url: 'https://twitter.com/Hantao',
+        title: "Hantao's X account",
+      },
+    ],
+    status: 'delivered'
+  }
 ];

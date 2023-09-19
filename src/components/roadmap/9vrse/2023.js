@@ -38,5 +38,36 @@ export const nineVerse2023 = [
             },
         ],
         status: 'delivered'
-    }
+    },
+  {
+    title: "Sunil Daluvoy appointed as Strategic Global Partnership Advisor at 9VRSE Inc.",
+    images: [
+      {
+        url: '/img/roadmap/9vrse/sunil-daluvoy/sunil-daluvoy-1.jpg',
+        width: 400,
+        height: 400,
+        alt: 'Sunil Daluvoy'
+      },
+      {
+        url: '/img/roadmap/9vrse/sunil-daluvoy/sunil-daluvoy-2.jpg',
+        width: 597,
+        height: 198,
+        alt: 'Sunil Daluvoy on X'
+      }
+    ],
+    description: "9VRSE Inc. has strengthened its strategic leadership with the appointment of Sunil Daluvoy,"
+      + " former Business Director at Uber Technologies and Google and head of global partnerships at Abra,"
+      + " as advisor of global partnerships.",
+    links: [
+      {
+        url: 'https://twitter.com/svd415',
+        title: "Sunil Daluvoy's X account",
+      },
+      {
+        url: 'https://www.linkedin.com/in/svd415/',
+        title: "Sunil Daluvoy's LinkedIn account",
+      },
+    ],
+    status: 'delivered'
+  }
 ];
