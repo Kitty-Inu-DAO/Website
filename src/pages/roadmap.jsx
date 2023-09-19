@@ -24,9 +24,10 @@ export default function Roadmap() {
             html.push((<a className="mr-4" href={url} onClick={(e) => click(e)}>
                 <Image data-index={imageIndex++}
                        className="inline-block shadow-md shadow-black mb-3"
-                       src={thumb} width={width(image)} height="180" alt={image.alt} />
+                       src={thumb} width={width(image)} height="160" alt={image.alt} />
             </a>));
             slides.push({ src: image.url });
+            key++;
         });
         return html;
     }
@@ -39,7 +40,7 @@ export default function Roadmap() {
 
     function width(image) {
         const ratio = image.width / image.height;
-        return 180 * ratio;
+        return 160 * ratio;
     }
 
     let key = 0;

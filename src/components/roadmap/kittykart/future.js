@@ -8,7 +8,7 @@ export const kittyKartFuture = [
         status: 'finalized'
     },
     {
-        title: "Fourth playable character",
+        title: "Third playable character",
         status: 'finalized'
     },
     {
