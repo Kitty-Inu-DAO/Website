@@ -10,7 +10,7 @@ export default function HomeFooter() {
           <div className="flex space-x-8 sm:space-x-10">
             <ExternalLink href='https://twitter.com/kittyinutoken' className='text-white'><img src='/img/social_icons/social_twitter.svg' alt='twitter' className='h-8 w-8 hover:opacity-50' /></ExternalLink>
             <ExternalLink href='https://discord.com/invite/kittyinu' className='text-white'><img src='/img/social_icons/social_discord.svg' alt='Discord' className='h-8 w-8 hover:opacity-50' /></ExternalLink>
-            <ExternalLink href='https://t.me/kittyinudao' className='text-white'><img className="w-8 h-8 hover:opacity-50" src='/img/social_icons/social_telegram.svg' alt="Telegram"></img></ExternalLink>
+            <ExternalLink href='https://t.me/kitty.inu' className='text-white'><img className="w-8 h-8 hover:opacity-50" src='/img/social_icons/social_telegram.svg' alt="Telegram"></img></ExternalLink>
             <ExternalLink href='https://www.instagram.com/kitty.inu/' className='text-white'><img className="w-8 h-8 hover:opacity-50" src='/img/social_icons/social_instagram.svg' alt="Instagram"></img></ExternalLink>
             <ExternalLink href='https://www.tiktok.com/@kittyinutoken' className='text-white'><img className="w-8 h-8 hover:opacity-50" src='/img/social_icons/social_tiktok.svg' alt="TikTok"></img></ExternalLink>
           </div>
