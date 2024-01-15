@@ -133,34 +133,103 @@ export const kittyInuToken2023 = [
         ],
         status: 'delivered'
     },
-  {
-    title: "Jonah Blake and Hantao appointed as media consultants and content creators",
-    images: [
-      {
-        url: '/img/roadmap/kitty-inu-token/jonah/jonah-1.png',
-        width: 597,
-        height: 686,
-        alt: 'Jonah Blake'
-      }
-    ],
-    description: "Jonah Blake and Hantao have been appointed by the DAO to host 24 X Spaces, 72 videos"
-      + " and 12 creator events, to bolster the Kitty Inu brand's existing appeal through gaming and media"
-      + ", to design a funnel that converts potential members to active DAO members and"
-      + " increase user stickiness within the DAO.",
-    links: [
-      {
-        url: 'https://snapshot.org/#/kittyinudao.eth/proposal/0x58427f2159ed4d2d682e5f920862ef60581b94ff8ef51336782f44fb0e4dee53',
-        title: "DAO's Jonah and Hantao's media package vote",
-      },
-      {
-        url: 'https://twitter.com/RealJonahBlake',
-        title: "Jonah Blake's X account",
-      },
-      {
-        url: 'https://twitter.com/Hantao',
-        title: "Hantao's X account",
-      },
-    ],
-    status: 'delivered'
-  }
+    {
+        title: "Jonah Blake and Hantao appointed as media consultants and content creators",
+        images: [
+            {
+                url: '/img/roadmap/kitty-inu-token/jonah/jonah-1.png',
+                width: 597,
+                height: 686,
+                alt: 'Jonah Blake'
+            }
+        ],
+        description: "Jonah Blake and Hantao have been appointed by the DAO to host 24 X Spaces, 72 videos"
+            + " and 12 creator events, to bolster the Kitty Inu brand's existing appeal through gaming and media"
+            + ", to design a funnel that converts potential members to active DAO members and"
+            + " increase user stickiness within the DAO.",
+        links: [
+            {
+                url: 'https://snapshot.org/#/kittyinudao.eth/proposal/0x58427f2159ed4d2d682e5f920862ef60581b94ff8ef51336782f44fb0e4dee53',
+                title: "DAO's Jonah and Hantao's media package vote",
+            },
+            {
+                url: 'https://twitter.com/RealJonahBlake',
+                title: "Jonah Blake's X account",
+            },
+            {
+                url: 'https://twitter.com/Hantao',
+                title: "Hantao's X account",
+            },
+        ],
+        status: 'delivered'
+    },
+    {
+        title: "Kitties R Us airdrop program",
+        images: [
+            {
+                url: '/img/roadmap/kitty-inu-token/kitties-r-us/kitties_r_us-1.png',
+                width: 1454,
+                height: 1027,
+                alt: 'Kitties R Us'
+            },
+            {
+                url: '/img/roadmap/kitty-inu-token/kitties-r-us/kitties_r_us-2.png',
+                width: 1454,
+                height: 1027,
+                alt: 'Kitties R Us'
+            },
+        ],
+        description: "Kitties R Us is an exclusive Kitty Inu DAO airdrop program to reward our community."
+            + " Publish contents on X about Kitty Inu and like, comment, quote or repost the Kitty Inu DAO's posts to earn $kitty."
+            + " Every month the Kitty Inu DAO airdrops $kitty to their most engaged community members.",
+        links: [
+            {
+                url: 'https://kittiesr.us',
+                title: "Kitties R Us website",
+            },
+        ],
+        status: 'delivered'
+    },
+    {
+        title: "Pixels integration",
+        images: [
+            {
+                url: '/img/roadmap/kitty-inu-token/pixels/pixels-1.jpg',
+                width: 2000,
+                height: 1600,
+                alt: 'Pixels'
+            },
+            {
+                url: '/img/roadmap/kitty-inu-token/pixels/pixels-2.png',
+                width: 1136,
+                height: 737,
+                alt: 'Pixels'
+            },
+            {
+                url: '/img/roadmap/kitty-inu-token/pixels/pixels-3.png',
+                width: 789,
+                height: 522,
+                alt: 'Pixels'
+            },
+            {
+                url: '/img/roadmap/kitty-inu-token/pixels/pixels-4.png',
+                width: 1929,
+                height: 1380,
+                alt: 'Pixels'
+            },
+        ],
+        description: "Pixels is Web3 2D open-ended world of farming, creation and exploration with over 500,000 players."
+            + " You can now play as Kitty Inu if you hold $kitty. It has been the first ERC20 token integration into the game.",
+        links: [
+            {
+                url: 'https://www.pixels.xyz/',
+                title: "Official website",
+            },
+            {
+                url: 'https://twitter.com/pixels_online',
+                title: "Official X account",
+            },
+        ],
+        status: 'delivered'
+    }
 ];
