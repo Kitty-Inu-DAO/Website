@@ -1,7 +1,7 @@
 export const kittyInuToken2021 = [
     {
         title: 'Fair launch of the $kitty V1 token',
-        description: 'No pre-sale, no early launch, no team tokens, just an Uniswap pool and a sniper bots protection.',
+        description: 'No pre-sale, no early launch, no team tokens.',
         status: 'delivered'
     },
     {
@@ -14,10 +14,6 @@ export const kittyInuToken2021 = [
                 alt: 'Kitty Inu V1 website'
             },
         ],
-        status: 'delivered'
-    },
-    {
-        title: 'Listing on CoinMarketCap, CoinGecko, Etherscan',
         status: 'delivered'
     },
     {
@@ -58,7 +54,7 @@ export const kittyInuToken2021 = [
         status: 'delivered'
     },
     {
-        title: 'CNN and Yahoo, non-paid for, articles mentioning Kitty Inu',
+        title: 'CNN and Yahoo Mention Kitty Inu',
         images: [
             {
                 url: '/img/roadmap/kitty-inu-token/cnn/kitty-cnn.png',

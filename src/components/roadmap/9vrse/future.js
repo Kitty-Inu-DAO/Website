@@ -1,28 +1,34 @@
 export const nineVerseFuture = [
     {
-        title: "Kollektion by Kitty Inu, a 100x Kitty Inu 1:1 ordinals collection",
-        images: [
-            {
-                url: '/img/roadmap/9vrse/kollektion/kollektion-1.jpg',
-                width: 2560,
-                height: 1817,
-                alt: 'Kollektion by Kitty Inu',
-            }
-        ],
-        description: 'A 100x 1:1 ordinals collection designed by Ace, distributed for free to the most active' +
-          ' Kitty\'s community members.',
+        title: "KittyKart Mushroom Madness final release",
         status: 'finalized'
     },
     {
-        title: "Fortune 500 company partnership",
+        title: "Second 1:1 KittyKart NFT",
         status: 'finalized'
     },
     {
-        title: "A second international multi-billion dollar company partnership",
+        title: "KittyKart New IP Integration",
         status: 'finalized'
     },
     {
-        title: "Kitty Inu 9,999 3D rigged avatars NFT collection",
+        title: "3D avatar interoperability (import your non-Kitty 3D PFP)",
+        status: "finalized"
+    },
+    {
+        title: "BodyShop (customize your kart)",
+        status: 'finalized'
+    },
+    {
+        title: "Launch of Play & Earn mode on Arbitrum",
+        status: 'finalized'
+    },
+    {
+        title: "Battle Royale mode",
+        status: 'development'
+    },
+    {
+        title: "Story mode",
         status: 'development'
     },
     {
@@ -31,6 +37,7 @@ export const nineVerseFuture = [
     },
     {
         title: "Kitty Inu iNFT avatar upgrade (AI-powered PFP NFTs with a persona)",
+        status: 'development'
     },
     {
         title: "Kitty Inu, $kitty-powered, virtual world and social environment"
