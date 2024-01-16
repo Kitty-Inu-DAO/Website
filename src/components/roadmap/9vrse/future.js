@@ -1,8 +1,35 @@
 export const nineVerseFuture = [
     {
-        title: "Fortune 500 company partnership",
-        description: "Release date is fully dependant on the partner's product announcement.",
+        title: "KittyKart Mushroom Madness final release",
         status: 'finalized'
+    },
+    {
+        title: "Second 1:1 KittyKart NFT",
+        status: 'finalized'
+    },
+    {
+        title: "KittyKart New IP Integration",
+        status: 'finalized'
+    },
+    {
+        title: "3D avatar interoperability (import your non-Kitty 3D PFP)",
+        status: "finalized"
+    },
+    {
+        title: "BodyShop (customize your kart)",
+        status: 'finalized'
+    },
+    {
+        title: "Launch of Play & Earn mode on Arbitrum",
+        status: 'finalized'
+    },
+    {
+        title: "Battle Royale mode",
+        status: 'development'
+    },
+    {
+        title: "Story mode",
+        status: 'development'
     },
     {
         title: "AI-powered gaming-oriented development tools",
@@ -10,6 +37,7 @@ export const nineVerseFuture = [
     },
     {
         title: "Kitty Inu iNFT avatar upgrade (AI-powered PFP NFTs with a persona)",
+        status: 'development'
     },
     {
         title: "Kitty Inu, $kitty-powered, virtual world and social environment"
