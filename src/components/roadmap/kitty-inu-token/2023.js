@@ -1,6 +1,6 @@
 export const kittyInuToken2023 = [
     {
-        title: 'Kitty Inu DAO formed',
+        title: 'Ratification of the Kitty Inu DAO Bylaws',
         description: "Kitty Inu's holders formalized the DAO governing over the token and approved the DAO's" +
             " constitution with a perfect 100% score for \"Yes\" with more than 88 billion $kitty voting.",
         links: [
@@ -27,22 +27,22 @@ export const kittyInuToken2023 = [
         status: 'delivered'
     },
     {
-        title: "Relaunch of the Kitty Inu's Twitter and Telegram accounts",
+        title: "Kitty Inu DAO Launches Telegram Channel",
         images: [
             {
                 url: '/img/roadmap/kitty-inu-token/twitter-relaunch/twitter-relaunch-1.jpg',
                 width: 1920,
                 height: 1080,
-                alt: 'Kitty Inu Twitter relaunch'
+                alt: 'Kitty Inu Telegram'
             },
             {
                 url: '/img/roadmap/kitty-inu-token/twitter-relaunch/twitter-relaunch-2.png',
                 width: 720,
                 height: 720,
-                alt: 'Kitty Inu Twitter relaunch'
+                alt: 'Kitty Inu Telegram'
             }
         ],
-        description: "Kitty Inu's Twitter and Telegram accounts are now owned and operated by the Kitty Inu DAO.",
+        description: "The Kitty Inu DAO launches a new telegram channel for DAO communications, marking the second social platform (in addition to the Twitter) fully managed by the DAO.",
         links: [
             {
                 'url': 'https://twitter.com/KittyInuToken',
@@ -56,9 +56,9 @@ export const kittyInuToken2023 = [
         status: 'delivered'
     },
     {
-        title: "$kitty V2 token airdrop",
-        description: "Kitty Inu's holders decided to create a new V2 contract for the $kitty token to improve performance and security." +
-            " V2 tokens was airdropped 1:1 to V1 holders and V1 liquidities moved to a new Uniswap pool for the V2 token.",
+        title: "$kitty V2 token migration",
+        description: "Kitty Inu DAO elects to migrate the governance token to a new V2 contract to improve performance and security." +
+            " V2 tokens were airdropped 1:1 to V1 holders from the DAO treasury. V1 DEX liquidity pools were migrated to a new V2 pool. V2 Contract ownership is assigned to the DAO multisig.",
         links: [
             {
                 'url': 'https://snapshot.org/#/kittyinudao.eth/proposal/0xb80a26aa4606396c2b2a0ac72c97d79be896230e7c7e3865084459bfae5d7c0d',
@@ -80,16 +80,6 @@ export const kittyInuToken2023 = [
         status: 'delivered'
     },
     {
-        title: "Kitty Inu DAO appointed 9VRSE Inc. as their agent for tier-1 CEX listings",
-        links: [
-            {
-                'url': 'https://snapshot.org/#/kittyinudao.eth/proposal/0xaff45d749cc41bcbf7b77a76b2767ddeea54dcb41b75d5663cc7bf33ee7f885e',
-                'title': "DAO's vote"
-            }
-        ],
-        status: 'delivered'
-    },
-    {
         title: "Kitty Inu DAO contracted Borovik as an advisor to the DAO Committee",
         links: [
             {
@@ -97,10 +87,6 @@ export const kittyInuToken2023 = [
                 'title': "DAO's Borovik vote"
             }
         ],
-        status: 'delivered'
-    },
-    {
-        title: 'Updated listing on CoinMarketCap, CoinGecko and Etherscan for the V2 token',
         status: 'delivered'
     },
     {
@@ -131,10 +117,40 @@ export const kittyInuToken2023 = [
                 alt: 'Kitty Inu DAO website'
             }
         ],
+        links: [
+            {
+                'url': 'https://github.com/Kitty-Inu-DAO/Website',
+                'title': "Website Github Repository"
+            }
+        ],
+        description: "The Kitty Inu DAO website transitions to full decentralization with hosting on IPFS and an ENS domain. Website source code is open-sourced in the DAO's github and maintained by developers within the DAO.",
         status: 'delivered'
     },
     {
-        title: "Jonah Blake and Hantao appointed as media consultants and content creators",
+        title: "Kitty Inu DAO Documentation",
+        images: [
+            {
+                url: '/img/roadmap/kitty-inu-token/documentation/dao-documentation.png',
+                width: 1241,
+                height: 900,
+                alt: 'Kitty Inu DAO Documentation'
+            },
+        ],
+        links: [
+            {
+                'url': 'https://docs-kittyinudao.eth.limo/',
+                'title': "DAO Documentation Website"
+            },
+            {
+                'url': 'https://github.com/Kitty-Inu-DAO/Governance-Docs',
+                'title': "Documentation Github Repository"
+            }
+        ],
+        description: "The Kitty Inu DAO documentation application is deployed to IPFS with ENS. Repository is open-sourced and maintained by developers within the DAO.",
+        status: 'delivered'
+    },
+    {
+        title: "DAO appoints Jonah Blake and Hantao as media team leads for the DAO.",
         images: [
             {
                 url: '/img/roadmap/kitty-inu-token/jonah/jonah-1.png',
@@ -143,14 +159,12 @@ export const kittyInuToken2023 = [
                 alt: 'Jonah Blake'
             }
         ],
-        description: "Jonah Blake and Hantao have been appointed by the DAO to host 24 X Spaces, 72 videos"
-            + " and 12 creator events, to bolster the Kitty Inu brand's existing appeal through gaming and media"
-            + ", to design a funnel that converts potential members to active DAO members and"
-            + " increase user stickiness within the DAO.",
+        description: "Jonah Blake and Hantao are appointed by the DAO to manage content on the DAO's social accounts. The media team will produce a weekly twitter space show, called 9Lives, detailing general events in web3 and highlighting builders within the DAO. Additionally, they will facilitate creator events around applications building in the DAO ecosystem, as well as manage a team who will produce video, image, and text content tailored to the Kitty Inu DAO for our social feeds."
+            + " The objective of this team is to bolster the Kitty Inu DAO brand's existing appeal through gaming and media.",
         links: [
             {
                 url: 'https://snapshot.org/#/kittyinudao.eth/proposal/0x58427f2159ed4d2d682e5f920862ef60581b94ff8ef51336782f44fb0e4dee53',
-                title: "DAO's Jonah and Hantao's media package vote",
+                title: "Media package vote",
             },
             {
                 url: 'https://twitter.com/RealJonahBlake',
@@ -191,45 +205,48 @@ export const kittyInuToken2023 = [
         status: 'delivered'
     },
     {
-        title: "Pixels integration",
+        title: "9Lives Launches to Success - 848 Listeners on First Episode!",
+        tweets: [
+            {
+                url: 'https://x.com/KittyInuDAO/status/1703917997344043127?s=20',
+                id: "1703917997344043127",
+            },
+        ],
+        description: "9Lives, the first Kitty Inu DAO produced twitter space show, launches and quickly becomes a top attended web3 gaming space every Tuesday night on Twitter.",
+        status: 'delivered'
+    },
+    {
+        title: "Media Team Kicks off 2D GIF Initiative",
         images: [
             {
-                url: '/img/roadmap/kitty-inu-token/pixels/pixels-1.jpg',
-                width: 2000,
-                height: 1600,
-                alt: 'Pixels'
+                url: '/img/roadmap/kitty-inu-token/gif/sleeping.gif',
+                width: 1024,
+                height: 1024,
+                alt: 'Kitty Inu Telegram'
             },
             {
-                url: '/img/roadmap/kitty-inu-token/pixels/pixels-2.png',
-                width: 1136,
-                height: 737,
-                alt: 'Pixels'
-            },
-            {
-                url: '/img/roadmap/kitty-inu-token/pixels/pixels-3.png',
-                width: 789,
-                height: 522,
-                alt: 'Pixels'
-            },
-            {
-                url: '/img/roadmap/kitty-inu-token/pixels/pixels-4.png',
-                width: 1929,
-                height: 1380,
-                alt: 'Pixels'
-            },
+                url: '/img/roadmap/kitty-inu-token/gif/jumping.gif',
+                width: 720,
+                height: 720,
+                alt: 'Kitty Inu Telegram'
+            }
         ],
-        description: "Pixels is Web3 2D open-ended world of farming, creation and exploration with over 500,000 players."
-            + " You can now play as Kitty Inu if you hold $kitty. It has been the first ERC20 token integration into the game.",
-        links: [
-            {
-                url: 'https://www.pixels.xyz/',
-                title: "Official website",
-            },
-            {
-                url: 'https://twitter.com/pixels_online',
-                title: "Official X account",
-            },
-        ],
+        description: "The DAO media team, in collaboration with 9VRSE, kickstarts the Kitty Inu gif repository. DAO members and artists contribute their creations of Kitty Inu in 2D gif form.",
         status: 'delivered'
-    }
+    },
+    {
+        title: "Kitty Inu DAO Creator Events",
+        tweets: [
+            {
+                url: 'https://x.com/FlyeKitesJay/status/1715483511946187016?s=20',
+                id: "1715483511946187016",
+            },
+            {
+                url: 'https://x.com/yellowpantherx/status/1715012428314902764?s=20',
+                id: "1715012428314902764",
+            }
+        ],
+        description: "Kitty Inu DAO creator events begin, inviting content creators to participate in tournament-style events featuring games in the Kitty Inu DAO ecosystem.",
+        status: 'delivered'
+    },
 ];

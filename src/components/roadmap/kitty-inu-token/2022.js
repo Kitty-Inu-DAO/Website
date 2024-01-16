@@ -31,7 +31,7 @@ export const kittyInuToken2022 = [
         status: 'delivered'
     },
     {
-        title: 'Miami buses advertising campaign',
+        title: 'Kitty Inu Takes over Art Basel in Miami',
         images: [
             {
                 url: '/img/roadmap/kitty-inu-token/miami-buses/miami-buses-1.jpg',
@@ -137,7 +137,7 @@ export const kittyInuToken2022 = [
         status: 'delivered'
     },
     {
-        title: 'New York City 3D billboard advertising campaign',
+        title: 'Kitty Inu on the first 3D billboard in Times Square at NFT NYC',
         images: [
             {
                 url: '/img/roadmap/kitty-inu-token/nyc-billboards/nyc-billboards-2.jpg',
