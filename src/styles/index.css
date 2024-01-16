@@ -23,6 +23,12 @@
 }
 
 
+@media screen and (max-width: 600px) {
+  .twitter-tweet {
+    justify-content: center;
+  }
+}
+
 .player-wrapper {
   position: relative;
   padding-top: 56.25%
