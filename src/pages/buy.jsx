@@ -29,7 +29,7 @@ export default function Buy() {
             }}>
                 <section className='w-11/12 lg:w-10/12 xl:w-8/12 flex flex-col items-center justify-center bg-[#b517b3]/30 px-10 pt-4 pb-28 rounded-b-lg backdrop-blur-md'>
                     <Hero title='Buy Kitty Inu Token' description='' />
-                    <p className='text-center md:text-left'>$kitty is currently only available on the decentralized exchange, Uniswap</p>
+                    <p className='text-center md:text-left'>$kitty is currently available on the decentralized exchange Uniswap and on the centralized exchange MEXC.</p>
                     <button
                         className='white-blue-button dex text-xs md:text-lg mt-12 flex items-center cursor-pointer transform transition-all duration-200 ease-in shadow-md hover:shadow-sm hover:translate-y-1'
                         onClick={() => window.open('https://app.uniswap.org/#/swap?outputCurrency=0x61a35258107563f6b6f102ae25490901c8760b12&chain=mainnet', '_blank')}
