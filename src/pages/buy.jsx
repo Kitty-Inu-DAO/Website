@@ -46,7 +46,7 @@ export default function Buy() {
 
                         Buy
                         <img src='/img/buy/kitty_icon.svg' className='ml-1 mr-1 md:ml-2 md:mr-2 w-4 h-4 md:w-6 md:h-6'></img>
-                        on MEXC
+                        on CEX (MEXC)
                     </button>
 
                     <p className='text-sm text-center'>On May 20th, 2023 Kitty Inu migrated to an upgraded and optimized ERC20 contract!</p>
