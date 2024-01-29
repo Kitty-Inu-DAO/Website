@@ -39,7 +39,11 @@ export default function Buy() {
                         on DeFi (Uniswap)
                         <img src='/img/buy/uniswap.webp' className='pb-1 md:ml-1 h-6 w-6 md:w-10 md:h-10'></img>
                     </button>
-                    <button className='white-blue-button disable text-[.65rem] md:text-lg mt-12 mb-12 flex items-center cursor-pointer shadow transform transition duration-200 ease-in'>
+                    <button
+                        className='white-blue-button text-[.65rem] md:text-lg mt-12 mb-12 flex items-center cursor-pointer shadow transform transition duration-200 ease-in'
+                        onClick={() => window.open('https://www.mexc.com/exchange/KITTY_USDT', '_blank')}
+                    >
+
                         Buy
                         <img src='/img/buy/kitty_icon.svg' className='ml-1 mr-1 md:ml-2 md:mr-2 w-4 h-4 md:w-6 md:h-6'></img>
                         on centralized exchanges
